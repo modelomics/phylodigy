@@ -558,6 +558,9 @@
       ["additive (four-point) within tolerance", bool(d.additive_within_tolerance)],
       ["metric (triangle) within tolerance", bool(d.metric_within_tolerance)],
       ["distance domain valid", bool(d.distance_domain_valid)],
+      ["diagnostic scope", d.scope],
+      ["distinct graph representatives", d.representative_count],
+      ["artifact leaves", d.artifact_count],
       ["distance pairs", d.distance_pair_count],
       ["quartets checked", d.quartet_count],
       ["quartet violations", d.violation_count],
@@ -604,16 +607,22 @@
     }
   }
 
-  function bool(value) { return Boolean(value); }
+  function bool(value) { return value == null ? "not assessed" : Boolean(value); }
 
   /* ---------- distance matrix ---------- */
 
   function renderMatrix() {
-    const taxa = state.lineage.tree.taxa;
-    const rows = L.matrixRows(taxa, state.lineage.comparisons);
+    const groups = state.lineage.structural_groups;
+    const taxa = groups ? groups.map(group => group.representative_id) : state.lineage.tree.taxa;
+    const rows = L.matrixRows(taxa, state.lineage);
     const max = Math.max(...rows.flat().map((c) => c.distance || 0));
     const table = els.matrix;
     table.textContent = "";
+    if (groups) {
+      const caption = document.createElement("caption");
+      caption.textContent = `${groups.length} distinct graph representatives for ${state.lineage.tree.taxa.length} artifacts. Models in the same structural group have distance zero; every model remains a tree leaf.`;
+      table.appendChild(caption);
+    }
     const head = document.createElement("tr");
     head.appendChild(document.createElement("th"));
     for (const id of taxa) {
@@ -648,9 +657,12 @@
 
   function renderGenomes() {
     const table = els.genomes;
+    const representatives = (state.lineage.character_matrix || {}).artifact_representatives;
     table.textContent = "";
     const header = document.createElement("tr");
-    for (const key of ["artifact id", "date range", "genome digest", "graph digest"]) {
+    const keys = ["artifact id", "date range", "genome digest", "graph digest"];
+    if (representatives) keys.push("structural representative");
+    for (const key of keys) {
       const th = document.createElement("th");
       th.textContent = key;
       header.appendChild(th);
@@ -670,6 +682,7 @@
       const graph = cell(L.digestShort(genome.graph_digest), true);
       graph.title = genome.graph_digest;
       tr.append(id, dates, digest, graph);
+      if (representatives) tr.appendChild(cell(representatives[genome.id], false));
       table.appendChild(tr);
     }
   }

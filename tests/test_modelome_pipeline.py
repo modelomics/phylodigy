@@ -136,6 +136,36 @@ class ModelomePipelineTests(unittest.TestCase):
         self.assertEqual(result["modelome"]["counts"]["profiled"], 1)
         self.assertEqual(result["modelome"]["counts"]["unprofiled"], 1)
 
+    def test_compact_mode_uses_graph_limit_and_retains_all_bound_entries(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            entries_path = root / "entries.json"
+            profiles_dir = root / "profiles"
+            profiles_dir.mkdir()
+            genomes = [
+                _genome("model:a"),
+                _genome("model:b"),
+                _genome("model:c", "vendor.beta"),
+            ]
+            entries = [_entry(genome.artifact_id, genome.artifact_id) for genome in genomes]
+            entries_path.write_text(json.dumps(entries), encoding="utf-8")
+            _write_genomes(profiles_dir, genomes)
+
+            with self.assertRaisesRegex(ValueError, "max_taxa"):
+                build_modelome_tree(entries_path, profiles_dir=profiles_dir, max_taxa=2)
+            compact = build_modelome_tree(
+                entries_path,
+                profiles_dir=profiles_dir,
+                max_taxa=2,
+                collapse_identical=True,
+            )
+
+        self.assertEqual(compact["status"], "inferred")
+        self.assertEqual(compact["tree"]["method"], "neighbor_joining_unique_graphs")
+        self.assertEqual(compact["modelome"]["counts"], {"entries": 3, "profiled": 3, "unprofiled": 0})
+        self.assertEqual(len(compact["tree"]["taxa"]), 3)
+        self.assertEqual(compact["modelome"]["collapse_identical"], True)
+
 
 if __name__ == "__main__":
     unittest.main()

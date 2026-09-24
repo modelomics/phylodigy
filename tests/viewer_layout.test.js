@@ -196,6 +196,20 @@ test("matrixRows produces a full n x n matrix preserving taxon order", () => {
   assert.equal(rows[0][0].isSelf, true);
 });
 
+test("compact lineage expands representative distances without inventing missing pairs", () => {
+  const lineage = sampleLineage();
+  lineage.comparisons = [lineage.comparisons[1]]; // representative a:1 ↔ b:1 only
+  lineage.character_matrix.artifact_representatives = {
+    "a:1": "a:1", "a:2": "a:1", "b:1": "b:1", "b:2": "b:1", "c:1": "c:1",
+  };
+  lineage.tree.taxa.push("c:1");
+  const rows = matrixRows(lineage.tree.taxa, lineage);
+  const at = (left, right) => rows[lineage.tree.taxa.indexOf(left)][lineage.tree.taxa.indexOf(right)].distance;
+  assert.equal(at("a:1", "a:2"), 0, "same structural representative has zero distance");
+  assert.equal(at("a:2", "b:2"), 20, "representative distance expands to member artifacts");
+  assert.equal(at("a:1", "c:1"), undefined, "absent comparison remains unavailable");
+});
+
 test("digestShort truncates long digests and keeps short strings whole", () => {
   assert.equal(digestShort("0123456789abcdef0123456789abcdef"), "0123456789ab…");
   assert.equal(digestShort("abc", 8), "abc");
@@ -263,6 +277,17 @@ test("reconstructStates reconstructs tip states verbatim and ancestors by child 
   const cherry = states.get(`${INTERNAL_PREFIX}:000000`);
   assert.deepEqual(cherry, { c0: 1 });
   void characterIds;
+});
+
+test("reconstructStates expands representative character rows to structural aliases", () => {
+  const lineage = sampleLineage();
+  lineage.character_matrix.counts_by_artifact = { "a:1": [2, 1], "b:1": [0, 3] };
+  lineage.character_matrix.artifact_representatives = {
+    "a:1": "a:1", "a:2": "a:1", "b:1": "b:1", "b:2": "b:1",
+  };
+  const states = reconstructStates(lineage.tree, lineage.character_matrix);
+  assert.deepEqual(states.get("a:2"), { c0: 2, c1: 1 });
+  assert.deepEqual(states.get("b:2"), { c1: 3 });
 });
 
 test("edgeTraits diffs child vs parent states into gained and lost characters", () => {

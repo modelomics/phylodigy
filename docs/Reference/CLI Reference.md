@@ -286,6 +286,7 @@ phylodigy modelome-tree ENTRIES \
   [--profiles-dir PATH] \
   [--bindings JSON_FILE] \
   [--max-taxa N] \
+  [--collapse-identical] \
   [--newick PATH] \
   [-o PATH]
 ```
@@ -295,7 +296,10 @@ that match entry IDs exactly or use an explicit `entry_id` to `artifact_id`
 mapping. Unprofiled entries remain in coverage without inferred tree tips.
 Exact diagnostics are limited to 100 bound profiles by default. `--newick`
 writes the inferred tree in Newick format and requires at least two bound
-profiles.
+profiles. `--collapse-identical` infers once per exact structural graph digest
+and keeps each artifact as a separate tree tip. With this option, `--max-taxa`
+limits the number of unique graphs. See [[Build a Modelome Tree]] for the
+estimator and diagnostic scope.
 
 ### `modelome-extract-plan`
 
@@ -409,6 +413,7 @@ rejects one paper identifier that binds to multiple models.
 ## Related notes
 
 - [[Build a Modelome Tree]]
+- [[Modelome API]]
 - [[Open Model Workflow]]
 - [[Closed Model Workflow]]
 - [[Artifact Profile Schema]]

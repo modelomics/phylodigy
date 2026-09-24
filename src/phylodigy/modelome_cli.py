@@ -31,6 +31,8 @@ def add_modelome_commands(commands: argparse._SubParsersAction) -> None:
         help="JSON object mapping modelome entry IDs to artifact IDs",
     )
     tree.add_argument("--max-taxa", type=int, default=100)
+    tree.add_argument("--collapse-identical", action="store_true",
+                      help="infer once per distinct graph and retain every artifact leaf; max-taxa limits distinct graphs")
     tree.add_argument("-o", "--output", metavar="PATH")
     tree.add_argument("--newick", metavar="PATH")
     tree.set_defaults(handler=_modelome_tree)
@@ -79,6 +81,7 @@ def _modelome_tree(args: argparse.Namespace) -> int:
         profiles_dir=args.profiles_dir,
         bindings=bindings,
         max_taxa=args.max_taxa,
+        collapse_identical=args.collapse_identical,
     )
 
     if args.newick:

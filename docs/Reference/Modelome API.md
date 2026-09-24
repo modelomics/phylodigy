@@ -97,14 +97,16 @@ result = build_modelome_tree(
     profiles_dir=None,
     bindings=None,
     max_taxa=100,
+    collapse_identical=False,
 )
 ```
 
 Both functions accept the entry path described above. The builder loads and
 binds local profiles when `profiles_dir` is supplied, retains entry coverage
 and declared relations, and infers from the observed bound profiles.
-`max_taxa` is the maximum number of bound profiles accepted for inference and
-must be at least 2.
+`max_taxa` is the maximum number of bound profiles accepted for ordinary
+inference and must be at least 2. With `collapse_identical=True`, it limits
+distinct structural graphs instead.
 
 The build result has top-level `artifact_type`, `status`, `tree`,
 `comparisons`, `config`, and `digest` fields. `status` is `inferred` when a
@@ -137,3 +139,47 @@ returns a Newick string ending in `;`. Labels that contain characters outside
 letters, digits, underscore, period, and hyphen are single-quoted, with
 embedded apostrophes doubled. Invalid or disconnected tree structures raise
 `ValueError`.
+
+## Compact structural inference
+
+Set `collapse_identical=True` to group profiles with the same exact structural
+graph digest before inference. In this mode, `max_taxa` limits the number of
+unique graphs. Every bound artifact remains a leaf. The result records each
+group in `structural_groups` and maps artifact IDs to representative IDs in
+`character_matrix.artifact_representatives`.
+
+This mode uses `neighbor_joining_unique_graphs`, which gives each unique graph
+one vote. It is a different estimator from neighbor joining over all artifacts
+when distances are non-additive. Tree diagnostics describe representatives.
+Four-point diagnostics are `not_assessed` with fewer than four unique graphs.
+Exact diagnostics still scale quartically in the unique graph count.
+
+## Infer a compact lineage directly
+
+```python
+from phylodigy import infer_compact_lineage
+
+compact = infer_compact_lineage(profiles.values(), max_graphs=100)
+```
+
+`profiles` must contain at least two `ArchitecturalGenome` objects with unique
+artifact IDs. The method groups only equal structural graph digests. Names,
+metadata, and approximate fingerprint similarity do not define groups.
+`max_graphs` limits unique graph representatives, not the input artifact
+count. The result retains all artifact leaves and compact representative
+comparisons and characters.
+
+## Look up original pairwise distances
+
+```python
+from phylodigy import lineage_distance_lookup
+
+distance = lineage_distance_lookup(lineage)
+raw_distance = distance("artifact:a", "artifact:b")
+```
+
+The returned callable expands representative graph distances lazily. It does
+not build a full artifact-level distance matrix. Artifacts in one structural
+group have distance zero. These are original graph-character distances, not
+patristic distances measured along the fitted tree. Unknown artifact IDs raise
+`KeyError`.

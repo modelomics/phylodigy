@@ -87,6 +87,9 @@ profiles for structural tree inference:
 ```console
 phylodigy modelome-tree entries.jsonl --profiles-dir profiles/ -o tree.json
 phylodigy modelome-plan entries.jsonl -o plan.json
+# Optional: infer once per exact graph digest, while retaining every profiled entry as a leaf.
+phylodigy modelome-tree entries.jsonl --profiles-dir profiles/ \
+  --collapse-identical -o compact-tree.json
 ```
 
 `ENTRIES` can be a bundle directory, JSONL file, or JSON file. Every entry is
@@ -112,6 +115,10 @@ tree = build_modelome_tree(
     "entries.jsonl", profiles_dir="profiles", bindings=None, max_taxa=100
 )
 ```
+
+`--collapse-identical` makes `--max-taxa` limit unique graphs rather than
+profiled artifacts. See the [Modelome API](docs/Reference/Modelome%20API.md)
+for exact grouping and distance lookup behavior.
 
 To prepare local upstream data, use the modelome CLI's
 `export-entry-seeds` and `build-entry-corpus` commands before running the tree

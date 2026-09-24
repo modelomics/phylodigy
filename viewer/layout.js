@@ -182,16 +182,27 @@
   function reconstructStates(tree, characterMatrix) {
     const characterIds = characterMatrix.character_ids || [];
     const countsByArtifact = characterMatrix.counts_by_artifact || {};
+    const representatives = characterMatrix.artifact_representatives || {};
     const { order, children } = postOrder(tree);
     const states = new Map();
+    const tipStates = new Map();
 
     const tipState = (id) => {
-      const row = countsByArtifact[id] || [];
+      const representative = representatives[id] || id;
+      // Compact lineages may have many leaves backed by one row. Reuse one
+      // immutable state object for all aliases instead of expanding each row.
+      const cacheKey = Object.prototype.hasOwnProperty.call(countsByArtifact, id)
+        ? id
+        : representative;
+      if (tipStates.has(cacheKey)) return tipStates.get(cacheKey);
+      const row = countsByArtifact[id] || countsByArtifact[representative] || [];
       const state = {};
       characterIds.forEach((characterId, i) => {
         const count = row[i];
         if (typeof count === "number" && count > 0) state[characterId] = count;
       });
+      Object.freeze(state);
+      tipStates.set(cacheKey, state);
       return state;
     };
 
@@ -202,6 +213,10 @@
         continue;
       }
       const childStates = kids.map((child) => states.get(child));
+      if (childStates.every((state) => state === childStates[0])) {
+        states.set(id, childStates[0]);
+        continue;
+      }
       const shared = {};
       for (const characterId of Object.keys(childStates[0])) {
         let count = childStates[0][characterId];
@@ -216,7 +231,7 @@
         }
         if (presentInAll) shared[characterId] = count;
       }
-      states.set(id, shared);
+      states.set(id, Object.freeze(shared));
     }
     return states;
   }
@@ -268,21 +283,31 @@
   }
 
   /* Pairwise distances indexed by the unordered artifact-id pair. */
-  function distanceLookup(comparisons) {
+  function distanceLookup(comparisons, artifactRepresentatives) {
+    // Passing a whole lineage enables compact representative expansion while
+    // preserving the historical comparisons-array calling convention.
+    if (!Array.isArray(comparisons) && comparisons && typeof comparisons === "object") {
+      artifactRepresentatives = (comparisons.character_matrix || {}).artifact_representatives || {};
+      comparisons = comparisons.comparisons;
+    }
+    const representatives = artifactRepresentatives || {};
     const distances = new Map();
     for (const item of comparisons || []) {
-      const pair = [item.left.id, item.right.id].sort().join("");
+      const pair = JSON.stringify([item.left.id, item.right.id].sort());
       distances.set(pair, item.graph_distance.distance);
     }
     return function (left, right) {
       if (left === right) return 0;
-      return distances.get([left, right].sort().join(""));
+      const leftRep = representatives[left] || left;
+      const rightRep = representatives[right] || right;
+      if (leftRep === rightRep) return 0;
+      return distances.get(JSON.stringify([leftRep, rightRep].sort()));
     };
   }
 
   /* Full n×n distance matrix rows for rendering, preserving taxa order. */
-  function matrixRows(taxa, comparisons) {
-    const lookup = distanceLookup(comparisons);
+  function matrixRows(taxa, lineageOrComparisons, artifactRepresentatives) {
+    const lookup = distanceLookup(lineageOrComparisons, artifactRepresentatives);
     return taxa.map((leftId) =>
       taxa.map((rightId) => ({
         left: leftId,

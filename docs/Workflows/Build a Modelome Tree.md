@@ -139,7 +139,8 @@ Pass the mapping to tree construction:
 
 ```console
 phylodigy modelome-tree entries.jsonl \
-  --profiles-dir profiles/ --bindings bindings.json -o tree.json
+  --profiles-dir profiles/ --bindings bindings.json \
+  --collapse-identical -o tree.json
 ```
 
 Every binding must name an entry in the corpus and a profile in the supplied
@@ -179,6 +180,22 @@ silently sample or truncate taxa. Exact tree diagnostics scale quartically in
 the number of profiles, which is why the default limit is 100. Increase it
 only when the required computation is acceptable.
 
+Use `--collapse-identical` when many entries have exactly identical observed
+graphs. It groups only equal structural graph digests. It does not merge by
+name, metadata, or approximate fingerprint. Every bound artifact remains a
+separate tree leaf, while graph comparisons and characters use one
+representative per structural group. The `structural_groups` report and
+`artifact_representatives` map preserve the reversible grouping. With this
+option, `--max-taxa` limits unique graphs, not the artifact count.
+
+The compact method is `neighbor_joining_unique_graphs`: each unique graph has
+one vote. This is a different estimator from neighbor joining over every
+artifact when distances are non-additive. Its exact diagnostics still scale
+quartically in the number of unique graphs. Diagnostics apply to structural
+representatives; four-point assessment is `not_assessed` with fewer than four
+unique graphs. The viewer shows the representative distance matrix and all
+artifact tree tips.
+
 The Python API exposes the same operation:
 
 ```python
@@ -189,8 +206,11 @@ tree = build_modelome_tree(
     "entries.jsonl",
     profiles_dir="profiles",
     bindings={"modelome-entry:42": "hub:org/model@revision"},
+    collapse_identical=True,
     max_taxa=100,
 )
 ```
+
+See [[Modelome API]] for compact lineage and pairwise distance functions.
 
 Return to [[Home]].
