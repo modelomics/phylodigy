@@ -1,0 +1,413 @@
+{
+  "artifact": {
+    "id": "toy:model:alpha",
+    "kind": "model",
+    "metadata": {
+      "note": "Toy data for CLI examples; not a real model.",
+      "synthetic": true
+    },
+    "name": "Toy Alpha"
+  },
+  "artifact_type": "phylodigy.architectural_genome",
+  "digest": "9b4d89f36b0dedd46202ba730519161f7fd93bec8cda622265e1c3f42923e296",
+  "extractor": {
+    "name": "synthetic-fixture",
+    "version": "1"
+  },
+  "graph_profile": {
+    "artifact_type": "phylodigy.computation_graph_profile",
+    "characters": [
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "0a8da6e4d0bca1855a19f5671edd13b5b6f32da382b1b8d474723e9893c14ab9",
+        "occurrences": [
+          {
+            "character_id": "0a8da6e4d0bca1855a19f5671edd13b5b6f32da382b1b8d474723e9893c14ab9",
+            "edge_ids": [],
+            "id": "1ae40ca91c8b5d896c6e8245368277be63dfbf7fd0ae9f776348ac8337562158",
+            "node_ids": [
+              "n000003"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "8dd2e2538ffaf7fb1ade11b48dc6697c23918616c196fd369eb21163a18ea6f3"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "0d769636b3a77ec3840f825ad6c83ba542815627696d2fa6e73d7f74905ea2cb",
+        "occurrences": [
+          {
+            "character_id": "0d769636b3a77ec3840f825ad6c83ba542815627696d2fa6e73d7f74905ea2cb",
+            "edge_ids": [],
+            "id": "aaae21d6f3c5411366dfb3dfcec46acb6b531c171c56010ecc55de9d7a532f9e",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "6f06dd8b4db06deb3bbdfbc1d09b1e3b5a14ace286cc2b8f0fd0161818220ea4"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "135fbb5ae56b11250cc0c64134deb93ad414f365e628bac25ad474d7469fb3ab",
+        "occurrences": [
+          {
+            "character_id": "135fbb5ae56b11250cc0c64134deb93ad414f365e628bac25ad474d7469fb3ab",
+            "edge_ids": [],
+            "id": "9943289eaca9b4677176c2dce8037fb66a76fc3e3a2b5897d4b7be665ec6a37e",
+            "node_ids": [
+              "n000003"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "899dbb7b0ad9cbfe4820109fb86c357551de1baf3300bc0ab2c2a2b58107608e"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "18e5d9bef732a26f3fa99dcc773a405bc57eab16e7a0b39169699f4c6001a960",
+        "occurrences": [
+          {
+            "character_id": "18e5d9bef732a26f3fa99dcc773a405bc57eab16e7a0b39169699f4c6001a960",
+            "edge_ids": [],
+            "id": "fe8d67dfb62539955ce37e1942b099e101b61b1772ecccd2b75bcda7ba63a00c",
+            "node_ids": [
+              "n000003"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "23053be6b9949285eb523af410758fa8e30084009ddcfee214c3f870d6d3f3e3"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "23f98cc29603369ad9b406ba22c17a2960ff5573b5745b3afa72849c37df9d4b",
+        "occurrences": [
+          {
+            "character_id": "23f98cc29603369ad9b406ba22c17a2960ff5573b5745b3afa72849c37df9d4b",
+            "edge_ids": [],
+            "id": "e80cd3bf8982364a722393862450272d0d6c6ff394fd49c54927d857c969a581",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "0f1f3df64acd8b0f38095f0cda115e437de919c7d0bb4917dacc1c946a4a3ec4"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "3e979a61222bac444446a546aeb2f099dd7da40da374a285fce5909c77bd1ef1",
+        "occurrences": [
+          {
+            "character_id": "3e979a61222bac444446a546aeb2f099dd7da40da374a285fce5909c77bd1ef1",
+            "edge_ids": [],
+            "id": "c3e0426eda4d84eeaa55e38a2f2b9837fd30e0bd727f8ced79b46305b1ee6dfc",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "6944b9c6bae106f0694ec3e9f11e0ee7f63765b70eadd31a25d8ccde041052ec"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "6c80a1394580f624c3ccbe2a54214e70776b764b97f948d2731ce46ecd662c51",
+        "occurrences": [
+          {
+            "character_id": "6c80a1394580f624c3ccbe2a54214e70776b764b97f948d2731ce46ecd662c51",
+            "edge_ids": [],
+            "id": "34ae3cc9338d35f1d0fa9c8bea08f6e33f10d31eaa7464f7dac355a811426c56",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "32b29ef4a4f81aac16be8e101c7cacfa4f25b76cbf19a9d171672ca64a022f79"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "746d4a3339cf3f3b1c53d468bbdf7c06074672bfb7ebd8a1b399405378344fb8",
+        "occurrences": [
+          {
+            "character_id": "746d4a3339cf3f3b1c53d468bbdf7c06074672bfb7ebd8a1b399405378344fb8",
+            "edge_ids": [],
+            "id": "fd9d009687948a67238de2346f176ecf0cdddefa6e6ef666080aee28aac545a5",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "9264d98071fa456e5dedfa49485504dab5082d268c1750a3ec4b79d8fb1952f8"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "7a0bdb3feff3caa2b19b13819ac0d41f70a674f5c9eab065f6ca7bdc8c0f2d77",
+        "occurrences": [
+          {
+            "character_id": "7a0bdb3feff3caa2b19b13819ac0d41f70a674f5c9eab065f6ca7bdc8c0f2d77",
+            "edge_ids": [],
+            "id": "491e408dbfadab91db8b3ef96d7b438d2e946657672629c0777c8831e848a1bd",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "52ecd673183e45bb9d95dec7da7b095145c64750eee54843ecdc54afe31b4fb8"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "7cd4762f269c4805d0c24a052464ef5ff87f44fa4aac781004ced437ffb2f9b7",
+        "occurrences": [
+          {
+            "character_id": "7cd4762f269c4805d0c24a052464ef5ff87f44fa4aac781004ced437ffb2f9b7",
+            "edge_ids": [],
+            "id": "0e5f058f9b74dc033bc5da133ad994c1ab2a04eb0edd8be85c7a614da8231da1",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "b337e7bf173d62dd14678e1541680613152072390c6f42c057592ad772da4fc8"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "8b3361c670438e13993841c3d6b0b29eec1779aa393f205d736374cf9f7a4275",
+        "occurrences": [
+          {
+            "character_id": "8b3361c670438e13993841c3d6b0b29eec1779aa393f205d736374cf9f7a4275",
+            "edge_ids": [],
+            "id": "3287cfda50339e0c6162fb2ddc3c5482ca8b08b0944f2da5864e777af568d9ed",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "05e6d4e1a6ba66aa7a470ed9ff73c811918ffebad8c47bb6da6e72071dd195d9"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "8d828be6b91c13b8d056ec07bdda1df604b784dc98bcb4a9e614e7a410f3b3ec",
+        "occurrences": [
+          {
+            "character_id": "8d828be6b91c13b8d056ec07bdda1df604b784dc98bcb4a9e614e7a410f3b3ec",
+            "edge_ids": [],
+            "id": "ae66445b4d8b39e76f9310e5895b2c442c9a8e90d0ac3de431a24c9ac867a612",
+            "node_ids": [
+              "n000003"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "a245453feda9a5d8c127c67564f79603544697845f71c239c3d85a7373492218"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "9edbe5e1d4c5b9e986d881cd3fdce554b47067ccacea70a14f2b1566633b0b7e",
+        "occurrences": [
+          {
+            "character_id": "9edbe5e1d4c5b9e986d881cd3fdce554b47067ccacea70a14f2b1566633b0b7e",
+            "edge_ids": [],
+            "id": "b4b295494c8906bab73a08d5d77fdc70c6295185c9897696ccb3ddc7ccb05fb5",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "a3e571aeb6675d44d7e4328c7df87bedba4b6d681e0c3a96307835d11f415d81"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "ad2cd689a9ac4506f970d08b8d5ec584e4420be856a80403a6c461edc409e94d",
+        "occurrences": [
+          {
+            "character_id": "ad2cd689a9ac4506f970d08b8d5ec584e4420be856a80403a6c461edc409e94d",
+            "edge_ids": [],
+            "id": "36427ae98538cea395c9793b3644ba374f5f38a0ff6cc698378136cf4e11b7b6",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "54c3766f222aded6589a270f43cceb3c607ef0411fcec472a95855861f094bd9"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "f3f31a67c39601f5d193b4aa9103a5ca4d5dbc731a51b0abbfcf2b16632564da",
+        "occurrences": [
+          {
+            "character_id": "f3f31a67c39601f5d193b4aa9103a5ca4d5dbc731a51b0abbfcf2b16632564da",
+            "edge_ids": [],
+            "id": "fb4172d833f1beb47ea5da18fe025c91ba97c84af43833f0e48a274d8f45e875",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "6647ee855db00f2c18d69c75e43bfee1a8496618f393bc0246079177d601d6fd"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "fab253ed9e78a031af32e21097226f364a21f81a7cd8ec10fb85bce97eae376c",
+        "occurrences": [
+          {
+            "character_id": "fab253ed9e78a031af32e21097226f364a21f81a7cd8ec10fb85bce97eae376c",
+            "edge_ids": [],
+            "id": "f2732fa6a0b750711980b752fad33a24cb0013252607f6816df977eca4f13eeb",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "4caff6050be3d8919de9bc8f6f51101aaa5ee67c73227fd7554d663f167be930"
+      }
+    ],
+    "digest": "04b74148753981cf10bec7e8b10cfde4fa905f2829d44dc3500f946273b04f81",
+    "fingerprint": {
+      "scales": [
+        {
+          "features": {
+            "23053be6b9949285eb523af410758fa8e30084009ddcfee214c3f870d6d3f3e3": 1,
+            "52ecd673183e45bb9d95dec7da7b095145c64750eee54843ecdc54afe31b4fb8": 1,
+            "6f06dd8b4db06deb3bbdfbc1d09b1e3b5a14ace286cc2b8f0fd0161818220ea4": 1,
+            "a3e571aeb6675d44d7e4328c7df87bedba4b6d681e0c3a96307835d11f415d81": 1
+          },
+          "radius": 0
+        },
+        {
+          "features": {
+            "32b29ef4a4f81aac16be8e101c7cacfa4f25b76cbf19a9d171672ca64a022f79": 1,
+            "4caff6050be3d8919de9bc8f6f51101aaa5ee67c73227fd7554d663f167be930": 1,
+            "6647ee855db00f2c18d69c75e43bfee1a8496618f393bc0246079177d601d6fd": 1,
+            "899dbb7b0ad9cbfe4820109fb86c357551de1baf3300bc0ab2c2a2b58107608e": 1
+          },
+          "radius": 1
+        },
+        {
+          "features": {
+            "05e6d4e1a6ba66aa7a470ed9ff73c811918ffebad8c47bb6da6e72071dd195d9": 1,
+            "54c3766f222aded6589a270f43cceb3c607ef0411fcec472a95855861f094bd9": 1,
+            "8dd2e2538ffaf7fb1ade11b48dc6697c23918616c196fd369eb21163a18ea6f3": 1,
+            "9264d98071fa456e5dedfa49485504dab5082d268c1750a3ec4b79d8fb1952f8": 1
+          },
+          "radius": 2
+        },
+        {
+          "features": {
+            "0f1f3df64acd8b0f38095f0cda115e437de919c7d0bb4917dacc1c946a4a3ec4": 1,
+            "6944b9c6bae106f0694ec3e9f11e0ee7f63765b70eadd31a25d8ccde041052ec": 1,
+            "a245453feda9a5d8c127c67564f79603544697845f71c239c3d85a7373492218": 1,
+            "b337e7bf173d62dd14678e1541680613152072390c6f42c057592ad772da4fc8": 1
+          },
+          "radius": 3
+        }
+      ],
+      "scheme": "directed-wl-counts.v1"
+    },
+    "frontend": "synthetic-records",
+    "graph": {
+      "edges": [
+        {
+          "position": "arg:000000",
+          "source": "n000000",
+          "target": "n000001"
+        },
+        {
+          "position": "arg:000000",
+          "source": "n000001",
+          "target": "n000002"
+        },
+        {
+          "position": "arg:000000",
+          "source": "n000002",
+          "target": "n000003"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "n000000",
+          "operation": "graph.input"
+        },
+        {
+          "attributes": {
+            "width": 4
+          },
+          "id": "n000001",
+          "operation": "function.toy.linear"
+        },
+        {
+          "id": "n000002",
+          "operation": "function.toy.relu"
+        },
+        {
+          "id": "n000003",
+          "operation": "graph.output"
+        }
+      ],
+      "schema_version": "2.0.0"
+    },
+    "profile_version": "2",
+    "regions": []
+  },
+  "schema_version": "3.0.0"
+}

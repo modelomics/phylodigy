@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:facebook/sam3@3c879f39826c281e95690f02c7821c4de09afae7",
+  "failure": {
+    "artifact_id": "hf:facebook/sam3@3c879f39826c281e95690f02c7821c4de09afae7",
+    "error": "PopularityCorpusError: artifact is gated and no authorization was supplied",
+    "rank": 36,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:suno/bark@70a8a7d34168586dc5d028fa9666aceade177992",
+  "failure": {
+    "artifact_id": "hf:suno/bark@70a8a7d34168586dc5d028fa9666aceade177992",
+    "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with NotImplementedError: Module [BarkModel] is missing the required \"forward\" function; torch.export failed with TypeError: got an unexpected keyword argument 'input_ids'",
+    "rank": 94,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

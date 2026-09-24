@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:Qwen/Qwen3.8-Flash-Next@de4b8e4d43b917e7706784d8bb445c9af86a3540",
+  "failure": {
+    "artifact_id": "hf:Qwen/Qwen3.8-Flash-Next@de4b8e4d43b917e7706784d8bb445c9af86a3540",
+    "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with GuardOnDataDependentSymNode: Could not guard on data-dependent expression ((u0//4)) > 0 (unhinted: ((u0//4)) > 0).  (Size-like symbols: u0)\n\nconsider using data-dependent friendly APIs such as guard_or_false, guard_or_true and statically_known_true.\nCaused by: (transformers/models/qwen4_exp/modeling_qwen4_exp.py:674 in forward)\nFor more information, run with TORCH_LOGS=\"dynamic\"\nFor extended logs when we create symbols, also add TORCHDYNAMO_EXTENDED_DEBUG_CREATE_SYMBOL=\"u0\"\nIf you suspect the guard was triggered from C++, add TORCHDYNAMO_EXTENDED_DEBUG_CPP=1\nFor more debugging help, see https://docs.google.com/document/d/1HSuTTVvYH1pTew89Rtpeu84Ht3nQEFTYhAX3Ypa_xJs/edit?usp=sharing\n\nFor C++ stack trace, run with TORCHDYNAMO_EXTENDED_DEBUG_CPP=1\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.",
+    "rank": 15,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

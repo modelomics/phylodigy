@@ -1,0 +1,1742 @@
+{
+  "artifact_type": "phylodigy.citation_snapshot",
+  "digest": "a87b7b4faaedae7f3e08111aaf5f14182275d4889db9fc0c9861ddd12d2a5f8d",
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "papers": [
+    {
+      "arxiv_id": "1405.0312",
+      "citation_count": 55023,
+      "external_ids": {
+        "ArXiv": "1405.0312",
+        "CorpusId": 14113767,
+        "DBLP": "conf/eccv/LinMBHPRDZ14",
+        "DOI": "10.1007/978-3-319-10602-1_48",
+        "MAG": "2952122856"
+      },
+      "paper_id": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "resolved": true,
+      "title": "Microsoft COCO: Common Objects in Context",
+      "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7",
+      "year": 2014
+    },
+    {
+      "arxiv_id": "1704.05179",
+      "citation_count": 508,
+      "external_ids": {
+        "ArXiv": "1704.05179",
+        "CorpusId": 11606382,
+        "DBLP": "journals/corr/DunnSHGCC17",
+        "MAG": "2609826708"
+      },
+      "paper_id": "3adff57fd09965224506a1bacc0579d9d3c8c11e",
+      "resolved": true,
+      "title": "SearchQA: A New Q&A Dataset Augmented with Context from a Search Engine",
+      "url": "https://www.semanticscholar.org/paper/3adff57fd09965224506a1bacc0579d9d3c8c11e",
+      "year": 2017
+    },
+    {
+      "arxiv_id": "1705.03551",
+      "citation_count": 4173,
+      "external_ids": {
+        "ACL": "P17-1147",
+        "ArXiv": "1705.03551",
+        "CorpusId": 26501419,
+        "DBLP": "journals/corr/JoshiCWZ17",
+        "DOI": "10.18653/v1/P17-1147",
+        "MAG": "2612431505"
+      },
+      "paper_id": "f010affab57b5fcf1cd6be23df79d8ec98c7289c",
+      "resolved": true,
+      "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+      "url": "https://www.semanticscholar.org/paper/f010affab57b5fcf1cd6be23df79d8ec98c7289c",
+      "year": 2017
+    },
+    {
+      "arxiv_id": "1804.06876",
+      "citation_count": 1198,
+      "external_ids": {
+        "ACL": "N18-2003",
+        "ArXiv": "1804.06876",
+        "CorpusId": 4952494,
+        "DBLP": "conf/naacl/ZhaoWYOC18",
+        "DOI": "10.18653/v1/N18-2003",
+        "MAG": "2963526187"
+      },
+      "paper_id": "0be19fd9896e5d40222c690cc3ff553adc7c0e27",
+      "resolved": true,
+      "title": "Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods",
+      "url": "https://www.semanticscholar.org/paper/0be19fd9896e5d40222c690cc3ff553adc7c0e27",
+      "year": 2018
+    },
+    {
+      "arxiv_id": "1804.09301",
+      "citation_count": 762,
+      "external_ids": {
+        "ACL": "N18-2002",
+        "ArXiv": "1804.09301",
+        "CorpusId": 13756572,
+        "DBLP": "conf/naacl/RudingerNLD18",
+        "DOI": "10.18653/v1/N18-2002",
+        "MAG": "2963457723"
+      },
+      "paper_id": "9967cb4fd949039c6f04dd9f2f4c3331dbebe6f7",
+      "resolved": true,
+      "title": "Gender Bias in Coreference Resolution",
+      "url": "https://www.semanticscholar.org/paper/9967cb4fd949039c6f04dd9f2f4c3331dbebe6f7",
+      "year": 2018
+    },
+    {
+      "arxiv_id": "1809.02789",
+      "citation_count": 2693,
+      "external_ids": {
+        "ACL": "D18-1260",
+        "ArXiv": "1809.02789",
+        "CorpusId": 52183757,
+        "DBLP": "journals/corr/abs-1809-02789",
+        "DOI": "10.18653/v1/D18-1260",
+        "MAG": "2952396187"
+      },
+      "paper_id": "1536e8958697c5364f68b2e2448905dbbeb3a0ca",
+      "resolved": true,
+      "title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering",
+      "url": "https://www.semanticscholar.org/paper/1536e8958697c5364f68b2e2448905dbbeb3a0ca",
+      "year": 2018
+    },
+    {
+      "arxiv_id": "1810.04805",
+      "citation_count": 120192,
+      "external_ids": {
+        "ACL": "N19-1423",
+        "ArXiv": "1810.04805",
+        "CorpusId": 52967399,
+        "DBLP": "journals/corr/abs-1810-04805",
+        "DOI": "10.18653/v1/N19-1423",
+        "MAG": "2951055169"
+      },
+      "paper_id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "resolved": true,
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1810.09305",
+      "citation_count": 347,
+      "external_ids": {
+        "ArXiv": "1810.09305",
+        "CorpusId": 53046555,
+        "DBLP": "journals/corr/abs-1810-09305",
+        "MAG": "2896739098"
+      },
+      "paper_id": "c0199a7a37c22797c899571e51dba9690e606fa2",
+      "resolved": true,
+      "title": "WikiHow: A Large Scale Text Summarization Dataset",
+      "url": "https://www.semanticscholar.org/paper/c0199a7a37c22797c899571e51dba9690e606fa2",
+      "year": 2018
+    },
+    {
+      "arxiv_id": "1810.12440",
+      "citation_count": 229,
+      "external_ids": {
+        "ArXiv": "1810.12440",
+        "CorpusId": 53114428,
+        "DBLP": "conf/aaai/AcharyaKK19",
+        "DOI": "10.1609/aaai.v33i01.33018076",
+        "MAG": "2951327444"
+      },
+      "paper_id": "634161e4759616dbe06f0b1465999d3df122f366",
+      "resolved": true,
+      "title": "TallyQA: Answering Complex Counting Questions",
+      "url": "https://www.semanticscholar.org/paper/634161e4759616dbe06f0b1465999d3df122f366",
+      "year": 2018
+    },
+    {
+      "arxiv_id": "1811.00937",
+      "citation_count": 2632,
+      "external_ids": {
+        "ACL": "N19-1421",
+        "ArXiv": "1811.00937",
+        "CorpusId": 53296520,
+        "DBLP": "journals/corr/abs-1811-00937",
+        "DOI": "10.18653/v1/N19-1421",
+        "MAG": "2952331680"
+      },
+      "paper_id": "c21a4d70d83e0f6eb2a9e1c41d034842dd561e47",
+      "resolved": true,
+      "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge",
+      "url": "https://www.semanticscholar.org/paper/c21a4d70d83e0f6eb2a9e1c41d034842dd561e47",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1903.00161",
+      "citation_count": 1347,
+      "external_ids": {
+        "ACL": "N19-1246",
+        "ArXiv": "1903.00161",
+        "CorpusId": 67855846,
+        "DBLP": "conf/naacl/DuaWDSS019",
+        "DOI": "10.18653/v1/N19-1246",
+        "MAG": "2919420119"
+      },
+      "paper_id": "dda6fb309f62e2557a071522354d8c2c897a2805",
+      "resolved": true,
+      "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+      "url": "https://www.semanticscholar.org/paper/dda6fb309f62e2557a071522354d8c2c897a2805",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1904.06472",
+      "citation_count": 97,
+      "external_ids": {
+        "ACL": "W19-4101",
+        "ArXiv": "1904.06472",
+        "CorpusId": 118674834,
+        "DBLP": "journals/corr/abs-1904-06472",
+        "DOI": "10.18653/v1/W19-4101",
+        "MAG": "2939689074"
+      },
+      "paper_id": "b9f4a9a35201ad92d9425f911d08e737b4615eb3",
+      "resolved": true,
+      "title": "A Repository of Conversational Datasets",
+      "url": "https://www.semanticscholar.org/paper/b9f4a9a35201ad92d9425f911d08e737b4615eb3",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1904.09728",
+      "resolved": false
+    },
+    {
+      "arxiv_id": "1905.07830",
+      "citation_count": 4746,
+      "external_ids": {
+        "ACL": "P19-1472",
+        "ArXiv": "1905.07830",
+        "CorpusId": 159041722,
+        "DBLP": "journals/corr/abs-1905-07830",
+        "DOI": "10.18653/v1/P19-1472",
+        "MAG": "2946609015"
+      },
+      "paper_id": "8b0f27bb594b1eaaf493eaf1e2ee723a2b0a19ad",
+      "resolved": true,
+      "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+      "url": "https://www.semanticscholar.org/paper/8b0f27bb594b1eaaf493eaf1e2ee723a2b0a19ad",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1905.10044",
+      "citation_count": 2643,
+      "external_ids": {
+        "ACL": "N19-1300",
+        "ArXiv": "1905.10044",
+        "CorpusId": 165163607,
+        "DBLP": "journals/corr/abs-1905-10044",
+        "DOI": "10.18653/v1/N19-1300",
+        "MAG": "2953271402"
+      },
+      "paper_id": "9770fff7379a7ab9006b48939462354dda9a2053",
+      "resolved": true,
+      "title": "BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions",
+      "url": "https://www.semanticscholar.org/paper/9770fff7379a7ab9006b48939462354dda9a2053",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1907.10641",
+      "citation_count": 357,
+      "external_ids": {
+        "ArXiv": "1907.10641",
+        "CorpusId": 198893658,
+        "DBLP": "conf/aaai/SakaguchiBBC20",
+        "DOI": "10.1145/3474381",
+        "MAG": "2963259903"
+      },
+      "paper_id": "401dc39c2c8c910253d47980cfa3b4d2f7790d9b",
+      "resolved": true,
+      "title": "WinoGrande",
+      "url": "https://www.semanticscholar.org/paper/401dc39c2c8c910253d47980cfa3b4d2f7790d9b",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1908.02660",
+      "citation_count": 99,
+      "external_ids": {
+        "ArXiv": "1908.02660",
+        "CorpusId": 160028501,
+        "DBLP": "conf/iccv/YangRD19",
+        "DOI": "10.1109/ICCV.2019.00214",
+        "MAG": "2965515240"
+      },
+      "paper_id": "1d738fa77de08592d9b77754e48cc63e276e5c0d",
+      "resolved": true,
+      "title": "SpatialSense: An Adversarially Crowdsourced Benchmark for Spatial Relation Recognition",
+      "url": "https://www.semanticscholar.org/paper/1d738fa77de08592d9b77754e48cc63e276e5c0d",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1908.03195",
+      "citation_count": 1858,
+      "external_ids": {
+        "ArXiv": "1908.03195",
+        "CorpusId": 195441339,
+        "DBLP": "conf/cvpr/GuptaDG19",
+        "DOI": "10.1109/CVPR.2019.00550",
+        "MAG": "2965565989"
+      },
+      "paper_id": "f902a64f7d08aaa6bfca7463e8729952ddc6134e",
+      "resolved": true,
+      "title": "LVIS: A Dataset for Large Vocabulary Instance Segmentation",
+      "url": "https://www.semanticscholar.org/paper/f902a64f7d08aaa6bfca7463e8729952ddc6134e",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1908.04913",
+      "citation_count": 208,
+      "external_ids": {
+        "ArXiv": "1908.04913",
+        "CorpusId": 260536756,
+        "DBLP": "journals/corr/abs-1908-04913",
+        "MAG": "2967013449"
+      },
+      "paper_id": "3f4a0bb3f031cbe7b0043243116e779c1e75d493",
+      "resolved": true,
+      "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
+      "url": "https://www.semanticscholar.org/paper/3f4a0bb3f031cbe7b0043243116e779c1e75d493",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1909.00161",
+      "citation_count": 700,
+      "external_ids": {
+        "ACL": "D19-1404",
+        "ArXiv": "1909.00161",
+        "CorpusId": 202540839,
+        "DBLP": "journals/corr/abs-1909-00161",
+        "DOI": "10.18653/v1/D19-1404",
+        "MAG": "2970200208"
+      },
+      "paper_id": "093d9253a2fe765ca6577b091d3f99bab3155a7d",
+      "resolved": true,
+      "title": "Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach",
+      "url": "https://www.semanticscholar.org/paper/093d9253a2fe765ca6577b091d3f99bab3155a7d",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1909.08053",
+      "citation_count": 3093,
+      "external_ids": {
+        "ArXiv": "1909.08053",
+        "CorpusId": 202660670,
+        "DBLP": "journals/corr/abs-1909-08053",
+        "MAG": "2973727699"
+      },
+      "paper_id": "8323c591e119eb09b28b29fd6c7bc76bd889df7a",
+      "resolved": true,
+      "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+      "url": "https://www.semanticscholar.org/paper/8323c591e119eb09b28b29fd6c7bc76bd889df7a",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1910.11856",
+      "citation_count": 985,
+      "external_ids": {
+        "ACL": "2020.acl-main.421",
+        "ArXiv": "1910.11856",
+        "CorpusId": 204901567,
+        "DBLP": "journals/corr/abs-1910-11856",
+        "DOI": "10.18653/v1/2020.acl-main.421",
+        "MAG": "2982180741"
+      },
+      "paper_id": "fd6bc84144c2d77068bf3f077cb509d539f5f8e2",
+      "resolved": true,
+      "title": "On the Cross-lingual Transferability of Monolingual Representations",
+      "url": "https://www.semanticscholar.org/paper/fd6bc84144c2d77068bf3f077cb509d539f5f8e2",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1910.13461",
+      "citation_count": 13164,
+      "external_ids": {
+        "ACL": "2020.acl-main.703",
+        "ArXiv": "1910.13461",
+        "CorpusId": 204960716,
+        "DBLP": "journals/corr/abs-1910-13461",
+        "DOI": "10.18653/v1/2020.acl-main.703",
+        "MAG": "2982399380"
+      },
+      "paper_id": "395de0bd3837fdf4b4b5e5f04835bcc69c279481",
+      "resolved": true,
+      "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+      "url": "https://www.semanticscholar.org/paper/395de0bd3837fdf4b4b5e5f04835bcc69c279481",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1911.01547",
+      "resolved": false
+    },
+    {
+      "arxiv_id": "1911.02150",
+      "citation_count": 865,
+      "external_ids": {
+        "ArXiv": "1911.02150",
+        "CorpusId": 207880429,
+        "DBLP": "journals/corr/abs-1911-02150",
+        "MAG": "2988394319"
+      },
+      "paper_id": "dc52b09089704ebd6f471177474bc29741c50023",
+      "resolved": true,
+      "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+      "url": "https://www.semanticscholar.org/paper/dc52b09089704ebd6f471177474bc29741c50023",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "1911.11641",
+      "citation_count": 3420,
+      "external_ids": {
+        "ArXiv": "1911.11641",
+        "CorpusId": 208290939,
+        "DBLP": "conf/aaai/BiskZLGC20",
+        "DOI": "10.1609/AAAI.V34I05.6239",
+        "MAG": "2998617917"
+      },
+      "paper_id": "04f4e55e14150b7c48b0287ba77c7443df76ed45",
+      "resolved": true,
+      "title": "PIQA: Reasoning about Physical Commonsense in Natural Language",
+      "url": "https://www.semanticscholar.org/paper/04f4e55e14150b7c48b0287ba77c7443df76ed45",
+      "year": 2019
+    },
+    {
+      "arxiv_id": "2005.14165",
+      "citation_count": 62661,
+      "external_ids": {
+        "ArXiv": "2005.14165",
+        "CorpusId": 218971783,
+        "DBLP": "conf/nips/BrownMRSKDNSSAA20",
+        "MAG": "3030163527"
+      },
+      "paper_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "resolved": true,
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "year": 2020
+    },
+    {
+      "arxiv_id": "2009.03300",
+      "citation_count": 9307,
+      "external_ids": {
+        "ArXiv": "2009.03300",
+        "CorpusId": 221516475,
+        "DBLP": "journals/corr/abs-2009-03300",
+        "MAG": "3083410900"
+      },
+      "paper_id": "814a4f680b9ba6baba23b93499f4b48af1a27678",
+      "resolved": true,
+      "title": "Measuring Massive Multitask Language Understanding",
+      "url": "https://www.semanticscholar.org/paper/814a4f680b9ba6baba23b93499f4b48af1a27678",
+      "year": 2020
+    },
+    {
+      "arxiv_id": "2009.11462",
+      "citation_count": 1820,
+      "external_ids": {
+        "ACL": "2020.findings-emnlp.301",
+        "ArXiv": "2009.11462",
+        "CorpusId": 221878771,
+        "DBLP": "journals/corr/abs-2009-11462",
+        "DOI": "10.18653/v1/2020.findings-emnlp.301",
+        "MAG": "3088599783"
+      },
+      "paper_id": "399e7d8129c60818ee208f236c8dda17e876d21f",
+      "resolved": true,
+      "title": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models",
+      "url": "https://www.semanticscholar.org/paper/399e7d8129c60818ee208f236c8dda17e876d21f",
+      "year": 2020
+    },
+    {
+      "arxiv_id": "2101.00027",
+      "citation_count": 2981,
+      "external_ids": {
+        "ArXiv": "2101.00027",
+        "CorpusId": 230435736,
+        "DBLP": "journals/corr/abs-2101-00027"
+      },
+      "paper_id": "db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
+      "resolved": true,
+      "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+      "url": "https://www.semanticscholar.org/paper/db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
+      "year": 2020
+    },
+    {
+      "arxiv_id": "2101.11718",
+      "citation_count": 612,
+      "external_ids": {
+        "ArXiv": "2101.11718",
+        "CorpusId": 231719337,
+        "DBLP": "conf/fat/DhamalaSKKPCG21",
+        "DOI": "10.1145/3442188.3445924"
+      },
+      "paper_id": "ce3b364b7e6358940ce97d8d5887a65e5024ca21",
+      "resolved": true,
+      "title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+      "url": "https://www.semanticscholar.org/paper/ce3b364b7e6358940ce97d8d5887a65e5024ca21",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2102.07033",
+      "citation_count": 279,
+      "external_ids": {
+        "ArXiv": "2102.07033",
+        "CorpusId": 231924957,
+        "DBLP": "journals/tacl/LewisWLMKPSR21",
+        "DOI": "10.1162/tacl_a_00415"
+      },
+      "paper_id": "02d8cfa5bc5f086acc57bb4ac8e4e94515fed7f9",
+      "resolved": true,
+      "title": "PAQ: 65 Million Probably-Asked Questions and What You Can Do With Them",
+      "url": "https://www.semanticscholar.org/paper/02d8cfa5bc5f086acc57bb4ac8e4e94515fed7f9",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2103.00020",
+      "citation_count": 54776,
+      "external_ids": {
+        "ArXiv": "2103.00020",
+        "CorpusId": 231591445,
+        "DBLP": "conf/icml/RadfordKHRGASAM21"
+      },
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "resolved": true,
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2103.03874",
+      "citation_count": 6239,
+      "external_ids": {
+        "ArXiv": "2103.03874",
+        "CorpusId": 232134851,
+        "DBLP": "conf/nips/HendrycksBKABTS21"
+      },
+      "paper_id": "57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+      "resolved": true,
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "url": "https://www.semanticscholar.org/paper/57d1e7ac339e783898f2c3b1af55737cbeee9fc5",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2103.10360",
+      "citation_count": 1982,
+      "external_ids": {
+        "ACL": "2022.acl-long.26",
+        "ArXiv": "2103.10360",
+        "CorpusId": 247519241,
+        "DBLP": "conf/acl/DuQLDQY022",
+        "DOI": "10.18653/v1/2022.acl-long.26"
+      },
+      "paper_id": "50796b0f3edf9cb5ff1e447c298b33755378aa4f",
+      "resolved": true,
+      "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+      "url": "https://www.semanticscholar.org/paper/50796b0f3edf9cb5ff1e447c298b33755378aa4f",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2104.08727",
+      "citation_count": 73,
+      "external_ids": {
+        "ArXiv": "2104.08727",
+        "CorpusId": 233296036,
+        "DBLP": "journals/corr/abs-2104-08727",
+        "DOI": "10.18653/v1/2021.findings-emnlp.38"
+      },
+      "paper_id": "0a36cbfb05e60758d49aa10685460ed9afd96977",
+      "resolved": true,
+      "title": "GooAQ: Open Question Answering with Diverse Answer Types",
+      "url": "https://www.semanticscholar.org/paper/0a36cbfb05e60758d49aa10685460ed9afd96977",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2104.09864",
+      "citation_count": 6235,
+      "external_ids": {
+        "ArXiv": "2104.09864",
+        "CorpusId": 233307138,
+        "DBLP": "journals/ijon/SuALPBL24",
+        "DOI": "10.1016/j.neucom.2023.127063"
+      },
+      "paper_id": "66c10bf1f11bc1b2d92204d8f8391d087f6de1c4",
+      "resolved": true,
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "url": "https://www.semanticscholar.org/paper/66c10bf1f11bc1b2d92204d8f8391d087f6de1c4",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2104.12756",
+      "citation_count": 517,
+      "external_ids": {
+        "ArXiv": "2104.12756",
+        "CorpusId": 233394125,
+        "DBLP": "journals/corr/abs-2104-12756",
+        "DOI": "10.1109/WACV51458.2022.00264"
+      },
+      "paper_id": "d5611a92619548e7f2af5adb04070574c0dacac1",
+      "resolved": true,
+      "title": "InfographicVQA",
+      "url": "https://www.semanticscholar.org/paper/d5611a92619548e7f2af5adb04070574c0dacac1",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2106.03193",
+      "citation_count": 856,
+      "external_ids": {
+        "ACL": "2022.tacl-1.30",
+        "ArXiv": "2106.03193",
+        "CorpusId": 235358129,
+        "DBLP": "journals/tacl/GoyalGCCWJKRGF22",
+        "DOI": "10.1162/tacl_a_00474"
+      },
+      "paper_id": "789b8487da7188442085983caba3ffaae05531e9",
+      "resolved": true,
+      "title": "The Flores-101 Evaluation Benchmark for Low-Resource and Multilingual Machine Translation",
+      "url": "https://www.semanticscholar.org/paper/789b8487da7188442085983caba3ffaae05531e9",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2107.03374",
+      "citation_count": 11221,
+      "external_ids": {
+        "ArXiv": "2107.03374",
+        "CorpusId": 235755472,
+        "DBLP": "journals/corr/abs-2107-03374"
+      },
+      "paper_id": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+      "resolved": true,
+      "title": "Evaluating Large Language Models Trained on Code",
+      "url": "https://www.semanticscholar.org/paper/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2108.07732",
+      "citation_count": 4356,
+      "external_ids": {
+        "ArXiv": "2108.07732",
+        "CorpusId": 237142385,
+        "DBLP": "journals/corr/abs-2108-07732"
+      },
+      "paper_id": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+      "resolved": true,
+      "title": "Program Synthesis with Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2108.12409",
+      "citation_count": 1356,
+      "external_ids": {
+        "ArXiv": "2108.12409",
+        "CorpusId": 237347130,
+        "DBLP": "journals/corr/abs-2108-12409"
+      },
+      "paper_id": "9ca329408813d209b1dcb36936f7f9cba82506bd",
+      "resolved": true,
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "url": "https://www.semanticscholar.org/paper/9ca329408813d209b1dcb36936f7f9cba82506bd",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2109.07958",
+      "citation_count": 3824,
+      "external_ids": {
+        "ACL": "2022.acl-long.229",
+        "ArXiv": "2109.07958",
+        "CorpusId": 237532606,
+        "DBLP": "journals/corr/abs-2109-07958",
+        "DOI": "10.18653/v1/2022.acl-long.229"
+      },
+      "paper_id": "77d956cdab4508d569ae5741549b78e715fd0749",
+      "resolved": true,
+      "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "url": "https://www.semanticscholar.org/paper/77d956cdab4508d569ae5741549b78e715fd0749",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2109.10852",
+      "citation_count": 465,
+      "external_ids": {
+        "ArXiv": "2109.10852",
+        "CorpusId": 237593074,
+        "DBLP": "journals/corr/abs-2109-10852"
+      },
+      "paper_id": "19b3b074d38b250d024920732ae51a8ffa0996dd",
+      "resolved": true,
+      "title": "Pix2seq: A Language Modeling Framework for Object Detection",
+      "url": "https://www.semanticscholar.org/paper/19b3b074d38b250d024920732ae51a8ffa0996dd",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2110.02861",
+      "citation_count": 523,
+      "external_ids": {
+        "ArXiv": "2110.02861",
+        "CorpusId": 238408308,
+        "DBLP": "conf/iclr/DettmersLSZ22"
+      },
+      "paper_id": "11fe37ab6faf6bf85ad2f5746c154dec5412bd04",
+      "resolved": true,
+      "title": "8-bit Optimizers via Block-wise Quantization",
+      "url": "https://www.semanticscholar.org/paper/11fe37ab6faf6bf85ad2f5746c154dec5412bd04",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2110.08193",
+      "citation_count": 863,
+      "external_ids": {
+        "ACL": "2022.findings-acl.165",
+        "ArXiv": "2110.08193",
+        "CorpusId": 239010011,
+        "DBLP": "journals/corr/abs-2110-08193",
+        "DOI": "10.18653/v1/2022.findings-acl.165"
+      },
+      "paper_id": "7d5c661fa9a4255ee087e861f820564ea2e2bd6b",
+      "resolved": true,
+      "title": "BBQ: A hand-built bias benchmark for question answering",
+      "url": "https://www.semanticscholar.org/paper/7d5c661fa9a4255ee087e861f820564ea2e2bd6b",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2110.14168",
+      "citation_count": 10296,
+      "external_ids": {
+        "ArXiv": "2110.14168",
+        "CorpusId": 239998651,
+        "DBLP": "journals/corr/abs-2110-14168"
+      },
+      "paper_id": "d6045d2ccc9c09ca1671348de86d07da6bc28eea",
+      "resolved": true,
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "url": "https://www.semanticscholar.org/paper/d6045d2ccc9c09ca1671348de86d07da6bc28eea",
+      "year": 2021
+    },
+    {
+      "arxiv_id": "2203.09509",
+      "citation_count": 649,
+      "external_ids": {
+        "ACL": "2022.acl-long.234",
+        "ArXiv": "2203.09509",
+        "CorpusId": 247519233,
+        "DBLP": "journals/corr/abs-2203-09509",
+        "DOI": "10.48550/arXiv.2203.09509"
+      },
+      "paper_id": "382ba0c4452aab6ecdaf8a62d567bb3c4684e4f0",
+      "resolved": true,
+      "title": "ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+      "url": "https://www.semanticscholar.org/paper/382ba0c4452aab6ecdaf8a62d567bb3c4684e4f0",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2203.10244",
+      "citation_count": 1772,
+      "external_ids": {
+        "ACL": "2022.findings-acl.177",
+        "ArXiv": "2203.10244",
+        "CorpusId": 247593713,
+        "DBLP": "conf/acl/MasryLTJH22",
+        "DOI": "10.48550/arXiv.2203.10244"
+      },
+      "paper_id": "b611c501269224702d1a9942c8600a31ec66ab28",
+      "resolved": true,
+      "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+      "url": "https://www.semanticscholar.org/paper/b611c501269224702d1a9942c8600a31ec66ab28",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2204.05149",
+      "citation_count": 480,
+      "external_ids": {
+        "ArXiv": "2204.05149",
+        "CorpusId": 246840687,
+        "DBLP": "journals/computer/PattersonGHLLMR22",
+        "DOI": "10.36227/techrxiv.19139645"
+      },
+      "paper_id": "76cb108e37d9d2a06f5a49df04e993f5fb123c26",
+      "resolved": true,
+      "title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+      "url": "https://www.semanticscholar.org/paper/76cb108e37d9d2a06f5a49df04e993f5fb123c26",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2205.14135",
+      "citation_count": 5134,
+      "external_ids": {
+        "ArXiv": "2205.14135",
+        "CorpusId": 249151871,
+        "DBLP": "journals/corr/abs-2205-14135",
+        "DOI": "10.52202/068431-1189"
+      },
+      "paper_id": "87c5b281fa43e6f27191b20a8dd694eda1126336",
+      "resolved": true,
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "url": "https://www.semanticscholar.org/paper/87c5b281fa43e6f27191b20a8dd694eda1126336",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2206.04615",
+      "citation_count": 2618,
+      "external_ids": {
+        "ArXiv": "2206.04615",
+        "CorpusId": 263625818,
+        "DBLP": "journals/corr/abs-2206-04615"
+      },
+      "paper_id": "bd1331b233e84bab7eba503abc60b31ac08e7881",
+      "resolved": true,
+      "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+      "url": "https://www.semanticscholar.org/paper/bd1331b233e84bab7eba503abc60b31ac08e7881",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2207.14255",
+      "citation_count": 324,
+      "external_ids": {
+        "ArXiv": "2207.14255",
+        "CorpusId": 251135268,
+        "DBLP": "journals/corr/abs-2207-14255",
+        "DOI": "10.48550/arXiv.2207.14255"
+      },
+      "paper_id": "ec4c8d99eb1c028c43af6d8bbf727392d351cb59",
+      "resolved": true,
+      "title": "Efficient Training of Language Models to Fill in the Middle",
+      "url": "https://www.semanticscholar.org/paper/ec4c8d99eb1c028c43af6d8bbf727392d351cb59",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2210.02414",
+      "citation_count": 1293,
+      "external_ids": {
+        "ArXiv": "2210.02414",
+        "CorpusId": 252715691,
+        "DBLP": "journals/corr/abs-2210-02414",
+        "DOI": "10.48550/arXiv.2210.02414"
+      },
+      "paper_id": "1d26c947406173145a4665dd7ab255e03494ea28",
+      "resolved": true,
+      "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+      "url": "https://www.semanticscholar.org/paper/1d26c947406173145a4665dd7ab255e03494ea28",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2210.03057",
+      "citation_count": 660,
+      "external_ids": {
+        "ArXiv": "2210.03057",
+        "CorpusId": 252735112,
+        "DBLP": "conf/iclr/ShiSF0SVCTRZ0W23",
+        "DOI": "10.48550/arXiv.2210.03057"
+      },
+      "paper_id": "62f0db3a5ad5c795ec18fc7a6e7b01836809df57",
+      "resolved": true,
+      "title": "Language Models are Multilingual Chain-of-Thought Reasoners",
+      "url": "https://www.semanticscholar.org/paper/62f0db3a5ad5c795ec18fc7a6e7b01836809df57",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2211.05100",
+      "citation_count": 3016,
+      "external_ids": {
+        "ArXiv": "2211.05100",
+        "CorpusId": 253420279,
+        "DBLP": "journals/corr/abs-2211-05100"
+      },
+      "paper_id": "964bd39b546f0f6625ff3b9ef1083f797807ef2e",
+      "resolved": true,
+      "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+      "url": "https://www.semanticscholar.org/paper/964bd39b546f0f6625ff3b9ef1083f797807ef2e",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2212.04356",
+      "citation_count": 8261,
+      "external_ids": {
+        "ArXiv": "2212.04356",
+        "CorpusId": 252923993,
+        "DBLP": "journals/corr/abs-2212-04356"
+      },
+      "paper_id": "a02fbaf22237a1aedacb1320b6007cd70c1fe6ec",
+      "resolved": true,
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "url": "https://www.semanticscholar.org/paper/a02fbaf22237a1aedacb1320b6007cd70c1fe6ec",
+      "year": 2022
+    },
+    {
+      "arxiv_id": "2303.05499",
+      "citation_count": 4823,
+      "external_ids": {
+        "ArXiv": "2303.05499",
+        "CorpusId": 257427307,
+        "DBLP": "conf/eccv/LiuZRLZYJLYSZZ24",
+        "DOI": "10.48550/arXiv.2303.05499"
+      },
+      "paper_id": "c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0",
+      "resolved": true,
+      "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+      "url": "https://www.semanticscholar.org/paper/c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2304.06364",
+      "citation_count": 892,
+      "external_ids": {
+        "ArXiv": "2304.06364",
+        "CorpusId": 258108259,
+        "DBLP": "journals/corr/abs-2304-06364",
+        "DOI": "10.48550/arXiv.2304.06364"
+      },
+      "paper_id": "68c834c19cd126bbd6d25a3572d7205cfed76271",
+      "resolved": true,
+      "title": "AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/68c834c19cd126bbd6d25a3572d7205cfed76271",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2305.03393",
+      "citation_count": 42,
+      "external_ids": {
+        "ArXiv": "2305.03393",
+        "CorpusId": 258546918,
+        "DBLP": "conf/icdar/LysakNLAS23",
+        "DOI": "10.48550/arXiv.2305.03393"
+      },
+      "paper_id": "88b556a6108b98cd0e12ae2945cc6597fff9101c",
+      "resolved": true,
+      "title": "Optimized Table Tokenization for Table Structure Recognition",
+      "url": "https://www.semanticscholar.org/paper/88b556a6108b98cd0e12ae2945cc6597fff9101c",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2305.06161",
+      "citation_count": 1299,
+      "external_ids": {
+        "ArXiv": "2305.06161",
+        "CorpusId": 258588247,
+        "DBLP": "journals/tmlr/LiAZMKMMALCLZZW23"
+      },
+      "paper_id": "3e4085e5869f1b7959707a1e1d7d273b6057eb4e",
+      "resolved": true,
+      "title": "StarCoder: may the source be with you!",
+      "url": "https://www.semanticscholar.org/paper/3e4085e5869f1b7959707a1e1d7d273b6057eb4e",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2305.14233",
+      "citation_count": 971,
+      "external_ids": {
+        "ArXiv": "2305.14233",
+        "CorpusId": 258840897,
+        "DBLP": "conf/emnlp/DingCXQHL0Z23",
+        "DOI": "10.48550/arXiv.2305.14233"
+      },
+      "paper_id": "a122863d239643453195424c04067e89406246e1",
+      "resolved": true,
+      "title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+      "url": "https://www.semanticscholar.org/paper/a122863d239643453195424c04067e89406246e1",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2305.14314",
+      "citation_count": 5467,
+      "external_ids": {
+        "ArXiv": "2305.14314",
+        "CorpusId": 258841328,
+        "DBLP": "journals/corr/abs-2305-14314",
+        "DOI": "10.48550/arXiv.2305.14314"
+      },
+      "paper_id": "32ac52069e562d4f900afee70bdca63f53461481",
+      "resolved": true,
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "url": "https://www.semanticscholar.org/paper/32ac52069e562d4f900afee70bdca63f53461481",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2305.18290",
+      "citation_count": 10279,
+      "external_ids": {
+        "ArXiv": "2305.18290",
+        "CorpusId": 258959321,
+        "DBLP": "journals/corr/abs-2305-18290",
+        "DOI": "10.52202/075280-2338"
+      },
+      "paper_id": "0d1c76d45afa012ded7ab741194baf142117c495",
+      "resolved": true,
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "url": "https://www.semanticscholar.org/paper/0d1c76d45afa012ded7ab741194baf142117c495",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2306.01116",
+      "citation_count": 976,
+      "external_ids": {
+        "ArXiv": "2306.01116",
+        "CorpusId": 259063761,
+        "DBLP": "journals/corr/abs-2306-01116",
+        "DOI": "10.48550/arXiv.2306.01116"
+      },
+      "paper_id": "7a1e71cb1310c4a873e7a4e54d1a6dab0553adce",
+      "resolved": true,
+      "title": "The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",
+      "url": "https://www.semanticscholar.org/paper/7a1e71cb1310c4a873e7a4e54d1a6dab0553adce",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2307.09288",
+      "citation_count": 18064,
+      "external_ids": {
+        "ArXiv": "2307.09288",
+        "CorpusId": 259950998,
+        "DBLP": "journals/corr/abs-2307-09288"
+      },
+      "paper_id": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "resolved": true,
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://www.semanticscholar.org/paper/104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2308.12966",
+      "citation_count": 2389,
+      "external_ids": {
+        "ArXiv": "2308.12966",
+        "CorpusId": 261101015
+      },
+      "paper_id": "fc6a2f7478f68adefd69e2071f27e38aa1647f2f",
+      "resolved": true,
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+      "url": "https://www.semanticscholar.org/paper/fc6a2f7478f68adefd69e2071f27e38aa1647f2f",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2309.00071",
+      "citation_count": 616,
+      "external_ids": {
+        "ArXiv": "2309.00071",
+        "CorpusId": 261493986,
+        "DBLP": "conf/iclr/PengQFS24",
+        "DOI": "10.48550/arXiv.2309.00071"
+      },
+      "paper_id": "819bbdc2dac9e13d9ca3e2508a6e063186ce5e40",
+      "resolved": true,
+      "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/819bbdc2dac9e13d9ca3e2508a6e063186ce5e40",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2310.01377",
+      "citation_count": 385,
+      "external_ids": {
+        "ArXiv": "2310.01377",
+        "CorpusId": 283290883,
+        "DBLP": "conf/icml/CuiY0YH0NXXL0024"
+      },
+      "paper_id": "976ca858496d2d10246b943a44fe75d1ac477639",
+      "resolved": true,
+      "title": "ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback",
+      "url": "https://www.semanticscholar.org/paper/976ca858496d2d10246b943a44fe75d1ac477639",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2310.06825",
+      "citation_count": 3837,
+      "external_ids": {
+        "ArXiv": "2310.06825",
+        "CorpusId": 263830494,
+        "DBLP": "journals/corr/abs-2310-06825",
+        "DOI": "10.48550/arXiv.2310.06825"
+      },
+      "paper_id": "db633c6b1c286c0386f0078d8a2e6224e03a6227",
+      "resolved": true,
+      "title": "Mistral 7B",
+      "url": "https://www.semanticscholar.org/paper/db633c6b1c286c0386f0078d8a2e6224e03a6227",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2310.16944",
+      "citation_count": 634,
+      "external_ids": {
+        "ArXiv": "2310.16944",
+        "CorpusId": 264490502,
+        "DBLP": "journals/corr/abs-2310-16944",
+        "DOI": "10.48550/arXiv.2310.16944"
+      },
+      "paper_id": "cdcf3f36866ef1e16eba26d57c2324362247ba84",
+      "resolved": true,
+      "title": "Zephyr: Direct Distillation of LM Alignment",
+      "url": "https://www.semanticscholar.org/paper/cdcf3f36866ef1e16eba26d57c2324362247ba84",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2311.06242",
+      "citation_count": 601,
+      "external_ids": {
+        "ArXiv": "2311.06242",
+        "CorpusId": 265128818,
+        "DBLP": "journals/corr/abs-2311-06242",
+        "DOI": "10.1109/CVPR52733.2024.00461"
+      },
+      "paper_id": "441bada9aa6dfd1f94d45d20e0f7eb060d59dd30",
+      "resolved": true,
+      "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+      "url": "https://www.semanticscholar.org/paper/441bada9aa6dfd1f94d45d20e0f7eb060d59dd30",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2311.12022",
+      "citation_count": 3217,
+      "external_ids": {
+        "ArXiv": "2311.12022",
+        "CorpusId": 265295009,
+        "DBLP": "journals/corr/abs-2311-12022"
+      },
+      "paper_id": "210b0a3d76e93079cc51b03c4115fde545eea966",
+      "resolved": true,
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "url": "https://www.semanticscholar.org/paper/210b0a3d76e93079cc51b03c4115fde545eea966",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2311.16502",
+      "citation_count": 2527,
+      "external_ids": {
+        "ArXiv": "2311.16502",
+        "CorpusId": 265466525,
+        "DBLP": "journals/corr/abs-2311-16502",
+        "DOI": "10.1109/CVPR52733.2024.00913"
+      },
+      "paper_id": "b50d19c5c298f6562c3b3c6c3822a351bdc89260",
+      "resolved": true,
+      "title": "MMMU: A Massive Multi-Discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+      "url": "https://www.semanticscholar.org/paper/b50d19c5c298f6562c3b3c6c3822a351bdc89260",
+      "year": 2023
+    },
+    {
+      "arxiv_id": "2312.11805",
+      "resolved": false
+    },
+    {
+      "arxiv_id": "2404.12390",
+      "citation_count": 575,
+      "external_ids": {
+        "ArXiv": "2404.12390",
+        "CorpusId": 269214091,
+        "DBLP": "journals/corr/abs-2404-12390",
+        "DOI": "10.48550/arXiv.2404.12390"
+      },
+      "paper_id": "09ff7cdc583b28ec63dfc85c7142f2cb0e5e4eef",
+      "resolved": true,
+      "title": "BLINK: Multimodal Large Language Models Can See but Not Perceive",
+      "url": "https://www.semanticscholar.org/paper/09ff7cdc583b28ec63dfc85c7142f2cb0e5e4eef",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2404.16816",
+      "citation_count": 78,
+      "external_ids": {
+        "ArXiv": "2404.16816",
+        "CorpusId": 269362363,
+        "DBLP": "conf/acl/SinghGBTT24",
+        "DOI": "10.48550/arXiv.2404.16816"
+      },
+      "paper_id": "7d61b2dc1893638e0846263489c940496c01a89d",
+      "resolved": true,
+      "title": "IndicGenBench: A Multilingual Benchmark to Evaluate Generation Capabilities of LLMs on Indic Languages",
+      "url": "https://www.semanticscholar.org/paper/7d61b2dc1893638e0846263489c940496c01a89d",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2405.01481",
+      "citation_count": 50,
+      "external_ids": {
+        "ArXiv": "2405.01481",
+        "CorpusId": 269502241,
+        "DBLP": "journals/corr/abs-2405-01481",
+        "DOI": "10.48550/arXiv.2405.01481"
+      },
+      "paper_id": "afb06e773d9f073a885a095a8bbb5a5b761a3ab5",
+      "resolved": true,
+      "title": "NeMo-Aligner: Scalable Toolkit for Efficient Model Alignment",
+      "url": "https://www.semanticscholar.org/paper/afb06e773d9f073a885a095a8bbb5a5b761a3ab5",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2405.16406",
+      "citation_count": 478,
+      "external_ids": {
+        "ArXiv": "2405.16406",
+        "CorpusId": 270062819,
+        "DBLP": "journals/corr/abs-2405-16406",
+        "DOI": "10.48550/arXiv.2405.16406"
+      },
+      "paper_id": "a7ed153f848cd8a299c866f50d74b55f16d606ce",
+      "resolved": true,
+      "title": "SpinQuant: LLM quantization with learned rotations",
+      "url": "https://www.semanticscholar.org/paper/a7ed153f848cd8a299c866f50d74b55f16d606ce",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2406.08673",
+      "citation_count": 237,
+      "external_ids": {
+        "ArXiv": "2406.08673",
+        "CorpusId": 270440126,
+        "DBLP": "conf/nips/WangDDZSEZSK24",
+        "DOI": "10.48550/arXiv.2406.08673"
+      },
+      "paper_id": "f590d8926dd12345a3bd22253461850f5ca4b3ed",
+      "resolved": true,
+      "title": "HelpSteer2: Open-source dataset for training top-performing reward models",
+      "url": "https://www.semanticscholar.org/paper/f590d8926dd12345a3bd22253461850f5ca4b3ed",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2406.12793",
+      "citation_count": 1720,
+      "external_ids": {
+        "ArXiv": "2406.12793",
+        "CorpusId": 270562306,
+        "DBLP": "journals/corr/abs-2406-12793",
+        "DOI": "10.48550/arXiv.2406.12793"
+      },
+      "paper_id": "c7f9706898bdfa3241601e075b1305649b174ff1",
+      "resolved": true,
+      "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+      "url": "https://www.semanticscholar.org/paper/c7f9706898bdfa3241601e075b1305649b174ff1",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2407.10671",
+      "citation_count": 2432,
+      "external_ids": {
+        "ArXiv": "2407.10671",
+        "CorpusId": 271212307,
+        "DBLP": "journals/corr/abs-2407-10671",
+        "DOI": "10.48550/arXiv.2407.10671"
+      },
+      "paper_id": "54fb839f621e3fe787437ab8ca5f37e7e4726bfe",
+      "resolved": true,
+      "title": "Qwen2 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/54fb839f621e3fe787437ab8ca5f37e7e4726bfe",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2407.13833",
+      "citation_count": 37,
+      "external_ids": {
+        "ArXiv": "2407.13833",
+        "CorpusId": 271310407,
+        "DBLP": "journals/corr/abs-2407-13833",
+        "DOI": "10.48550/arXiv.2407.13833"
+      },
+      "paper_id": "d5c34e492d04b1cce31fb81ba40ac81b5feb0ef7",
+      "resolved": true,
+      "title": "Phi-3 Safety Post-Training: Aligning Language Models with a \"Break-Fix\" Cycle",
+      "url": "https://www.semanticscholar.org/paper/d5c34e492d04b1cce31fb81ba40ac81b5feb0ef7",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2408.00203",
+      "citation_count": 207,
+      "external_ids": {
+        "ArXiv": "2408.00203",
+        "CorpusId": 271601072,
+        "DBLP": "journals/corr/abs-2408-00203",
+        "DOI": "10.48550/arXiv.2408.00203"
+      },
+      "paper_id": "03cf4ae5ad61f4bc4665cedbd0747c840741e85a",
+      "resolved": true,
+      "title": "OmniParser for Pure Vision Based GUI Agent",
+      "url": "https://www.semanticscholar.org/paper/03cf4ae5ad61f4bc4665cedbd0747c840741e85a",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2409.12186",
+      "citation_count": 1495,
+      "external_ids": {
+        "ArXiv": "2409.12186",
+        "CorpusId": 272707390,
+        "DBLP": "journals/corr/abs-2409-12186"
+      },
+      "paper_id": "11dd2fc88747d20629f5aafab72ba649d93e969c",
+      "resolved": true,
+      "title": "Qwen2.5-Coder Technical Report",
+      "url": "https://www.semanticscholar.org/paper/11dd2fc88747d20629f5aafab72ba649d93e969c",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2409.12191",
+      "citation_count": 4842,
+      "external_ids": {
+        "ArXiv": "2409.12191",
+        "CorpusId": 272704132,
+        "DBLP": "journals/corr/abs-2409-12191",
+        "DOI": "10.48550/arXiv.2409.12191"
+      },
+      "paper_id": "a22b23b65cdbc0335b872ed7c7a7206c710f8997",
+      "resolved": true,
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "url": "https://www.semanticscholar.org/paper/a22b23b65cdbc0335b872ed7c7a7206c710f8997",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2410.01257",
+      "citation_count": 145,
+      "external_ids": {
+        "ArXiv": "2410.01257",
+        "CorpusId": 273025954,
+        "DBLP": "conf/iclr/WangBDESZKD25",
+        "DOI": "10.48550/arXiv.2410.01257"
+      },
+      "paper_id": "b5843e5acb4620346ba20e7eab89775519302491",
+      "resolved": true,
+      "title": "HelpSteer2-Preference: Complementing Ratings with Preferences",
+      "url": "https://www.semanticscholar.org/paper/b5843e5acb4620346ba20e7eab89775519302491",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2412.08635",
+      "citation_count": 55,
+      "external_ids": {
+        "ArXiv": "2412.08635",
+        "CorpusId": 274638148,
+        "DBLP": "journals/corr/abs-2412-08635",
+        "DOI": "10.48550/arXiv.2412.08635"
+      },
+      "paper_id": "fceec239385334866d76c43e16d2501d000a625c",
+      "resolved": true,
+      "title": "Multimodal Latent Language Modeling with Next-Token Diffusion",
+      "url": "https://www.semanticscholar.org/paper/fceec239385334866d76c43e16d2501d000a625c",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2412.08905",
+      "citation_count": 768,
+      "external_ids": {
+        "ArXiv": "2412.08905",
+        "CorpusId": 274656307,
+        "DBLP": "journals/corr/abs-2412-08905"
+      },
+      "paper_id": "6485be47d22b7c2b07886af397c460e81f4d29a5",
+      "resolved": true,
+      "title": "Phi-4 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/6485be47d22b7c2b07886af397c460e81f4d29a5",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2412.15115",
+      "citation_count": 4840,
+      "external_ids": {
+        "ArXiv": "2412.15115",
+        "CorpusId": 274859421,
+        "DBLP": "journals/corr/abs-2412-15115",
+        "DOI": "10.48550/arXiv.2412.15115"
+      },
+      "paper_id": "88aa6b1f37d1fd8e0a40499ce9bb87873f03aaa8",
+      "resolved": true,
+      "title": "Qwen2.5 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/88aa6b1f37d1fd8e0a40499ce9bb87873f03aaa8",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2412.19437",
+      "citation_count": 0,
+      "external_ids": {
+        "ArXiv": "2412.19437",
+        "CorpusId": 282749848
+      },
+      "paper_id": "e07a7e57745b69c0f08601fbdd19cfdcafbe1152",
+      "resolved": true,
+      "title": "DeepSeek-V3 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/e07a7e57745b69c0f08601fbdd19cfdcafbe1152",
+      "year": 2024
+    },
+    {
+      "arxiv_id": "2501.12948",
+      "citation_count": 5575,
+      "external_ids": {
+        "ArXiv": "2501.12948",
+        "CorpusId": 275789950,
+        "DBLP": "journals/nature/GuoYZSWZXZMBZY025",
+        "DOI": "10.1038/s41586-025-09422-z",
+        "PubMed": "40962978",
+        "PubMedCentral": "12443585"
+      },
+      "paper_id": "2eed1fad9bbf887d4395de40f20144c4fafefd7f",
+      "resolved": true,
+      "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+      "url": "https://www.semanticscholar.org/paper/2eed1fad9bbf887d4395de40f20144c4fafefd7f",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2501.17811",
+      "citation_count": 846,
+      "external_ids": {
+        "ArXiv": "2501.17811",
+        "CorpusId": 275954151,
+        "DBLP": "journals/corr/abs-2501-17811",
+        "DOI": "10.48550/arXiv.2501.17811"
+      },
+      "paper_id": "3ef9dbd95a174d4c175fcd603f62b8cc197e8d7e",
+      "resolved": true,
+      "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+      "url": "https://www.semanticscholar.org/paper/3ef9dbd95a174d4c175fcd603f62b8cc197e8d7e",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2502.12404",
+      "citation_count": 90,
+      "external_ids": {
+        "ArXiv": "2502.12404",
+        "CorpusId": 276421441,
+        "DBLP": "journals/corr/abs-2502-12404",
+        "DOI": "10.48550/arXiv.2502.12404"
+      },
+      "paper_id": "616499127a049611bb9a58564fce5763d2724736",
+      "resolved": true,
+      "title": "WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects",
+      "url": "https://www.semanticscholar.org/paper/616499127a049611bb9a58564fce5763d2724736",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2502.21228",
+      "citation_count": 26,
+      "external_ids": {
+        "ArXiv": "2502.21228",
+        "CorpusId": 276725165,
+        "DBLP": "journals/corr/abs-2502-21228",
+        "DOI": "10.48550/arXiv.2502.21228"
+      },
+      "paper_id": "b9b79c0b3096eae665d11a26288ceb1b37123a3e",
+      "resolved": true,
+      "title": "ECLeKTic: a Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer",
+      "url": "https://www.semanticscholar.org/paper/b9b79c0b3096eae665d11a26288ceb1b37123a3e",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2503.01743",
+      "citation_count": 556,
+      "external_ids": {
+        "ArXiv": "2503.01743",
+        "CorpusId": 276747153,
+        "DBLP": "journals/corr/abs-2503-01743",
+        "DOI": "10.48550/arXiv.2503.01743"
+      },
+      "paper_id": "f6e39cee044a03747fbb4b20e335b640b43b884c",
+      "resolved": true,
+      "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+      "url": "https://www.semanticscholar.org/paper/f6e39cee044a03747fbb4b20e335b640b43b884c",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2503.11576",
+      "citation_count": 53,
+      "external_ids": {
+        "ArXiv": "2503.11576",
+        "CorpusId": 277043577,
+        "DBLP": "journals/corr/abs-2503-11576",
+        "DOI": "10.1109/ICCV51701.2025.02040"
+      },
+      "paper_id": "9816692ff848689d235820e95e3a3149d620ab29",
+      "resolved": true,
+      "title": "SmolDocling: An Ultra-Compact Vision-Language Model for End-To-End Multi-Modal Document Conversion",
+      "url": "https://www.semanticscholar.org/paper/9816692ff848689d235820e95e3a3149d620ab29",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2503.20215",
+      "citation_count": 744,
+      "external_ids": {
+        "ArXiv": "2503.20215",
+        "CorpusId": 277322543,
+        "DBLP": "journals/corr/abs-2503-20215",
+        "DOI": "10.48550/arXiv.2503.20215"
+      },
+      "paper_id": "2024e5247104cf2261314e813e0bf8d48467ec43",
+      "resolved": true,
+      "title": "Qwen2.5-Omni Technical Report",
+      "url": "https://www.semanticscholar.org/paper/2024e5247104cf2261314e813e0bf8d48467ec43",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2504.07491",
+      "citation_count": 323,
+      "external_ids": {
+        "ArXiv": "2504.07491",
+        "CorpusId": 277667211,
+        "DBLP": "journals/corr/abs-2504-07491",
+        "DOI": "10.48550/arXiv.2504.07491"
+      },
+      "paper_id": "0da15253f25c1b3581216a818f1c2709adae1f51",
+      "resolved": true,
+      "title": "Kimi-VL Technical Report",
+      "url": "https://www.semanticscholar.org/paper/0da15253f25c1b3581216a818f1c2709adae1f51",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2504.07981",
+      "citation_count": 265,
+      "external_ids": {
+        "ArXiv": "2504.07981",
+        "CorpusId": 277740982,
+        "DBLP": "journals/corr/abs-2504-07981",
+        "DOI": "10.1145/3746027.3755688"
+      },
+      "paper_id": "df7b286e53d66c6881966b5e6904f7fa5e6d774b",
+      "resolved": true,
+      "title": "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use",
+      "url": "https://www.semanticscholar.org/paper/df7b286e53d66c6881966b5e6904f7fa5e6d774b",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2504.13181",
+      "citation_count": 322,
+      "external_ids": {
+        "ArXiv": "2504.13181",
+        "CorpusId": 277856792,
+        "DBLP": "conf/nips/BolyaHSCMWMZRRW25",
+        "DOI": "10.48550/arXiv.2504.13181"
+      },
+      "paper_id": "9ea340b113ff0681eb9bbaa2c002f86c54c7b85e",
+      "resolved": true,
+      "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
+      "url": "https://www.semanticscholar.org/paper/9ea340b113ff0681eb9bbaa2c002f86c54c7b85e",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2505.09388",
+      "citation_count": 7535,
+      "external_ids": {
+        "ArXiv": "2505.09388",
+        "CorpusId": 278602855
+      },
+      "paper_id": "d2d84d56f730f81d276a02b48d5d44db5bde0b4a",
+      "resolved": true,
+      "title": "Qwen3 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2508.06471",
+      "citation_count": 431,
+      "external_ids": {
+        "ArXiv": "2508.06471",
+        "CorpusId": 280561359,
+        "DBLP": "journals/corr/abs-2508-06471",
+        "DOI": "10.48550/arXiv.2508.06471"
+      },
+      "paper_id": "e05795cdb5b0c11e72016c79122777c5b3a7ed48",
+      "resolved": true,
+      "title": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/e05795cdb5b0c11e72016c79122777c5b3a7ed48",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2508.10925",
+      "citation_count": 1206,
+      "external_ids": {
+        "ArXiv": "2508.10925",
+        "CorpusId": 280671456
+      },
+      "paper_id": "2a609a89709d353d0b67be2babaafb5ee9e1188a",
+      "resolved": true,
+      "title": "gpt-oss-120b&gpt-oss-20b Model Card",
+      "url": "https://www.semanticscholar.org/paper/2a609a89709d353d0b67be2babaafb5ee9e1188a",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2508.19205",
+      "citation_count": 42,
+      "external_ids": {
+        "ArXiv": "2508.19205",
+        "CorpusId": 280870632,
+        "DBLP": "journals/corr/abs-2508-19205",
+        "DOI": "10.48550/arXiv.2508.19205"
+      },
+      "paper_id": "904572571c0d8c9e82ca503ecce587c5015acfe7",
+      "resolved": true,
+      "title": "VibeVoice Technical Report",
+      "url": "https://www.semanticscholar.org/paper/904572571c0d8c9e82ca503ecce587c5015acfe7",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2510.12798",
+      "citation_count": 67,
+      "external_ids": {
+        "ArXiv": "2510.12798",
+        "CorpusId": 282064365,
+        "DBLP": "journals/corr/abs-2510-12798",
+        "DOI": "10.48550/arXiv.2510.12798"
+      },
+      "paper_id": "8959601aa6d47c0f2d12229db9f4695b4750812a",
+      "resolved": true,
+      "title": "Detect Anything via Next Point Prediction",
+      "url": "https://www.semanticscholar.org/paper/8959601aa6d47c0f2d12229db9f4695b4750812a",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2510.18234",
+      "citation_count": 172,
+      "external_ids": {
+        "ArXiv": "2510.18234",
+        "CorpusId": 282246871,
+        "DBLP": "journals/corr/abs-2510-18234",
+        "DOI": "10.48550/arXiv.2510.18234"
+      },
+      "paper_id": "5e8b50dd5ed9851a541d337a4d9cfa9b75c0a33c",
+      "resolved": true,
+      "title": "DeepSeek-OCR: Contexts Optical Compression",
+      "url": "https://www.semanticscholar.org/paper/5e8b50dd5ed9851a541d337a4d9cfa9b75c0a33c",
+      "year": 2025
+    },
+    {
+      "arxiv_id": "2602.02276",
+      "citation_count": 356,
+      "external_ids": {
+        "ArXiv": "2602.02276",
+        "CorpusId": 285269548
+      },
+      "paper_id": "e1c32d718ad38e17d66b1ffb91744a169b592be7",
+      "resolved": true,
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "url": "https://www.semanticscholar.org/paper/e1c32d718ad38e17d66b1ffb91744a169b592be7",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2602.06036",
+      "citation_count": 75,
+      "external_ids": {
+        "ArXiv": "2602.06036",
+        "CorpusId": 285304343,
+        "DBLP": "journals/corr/abs-2602-06036",
+        "DOI": "10.48550/arXiv.2602.06036"
+      },
+      "paper_id": "fd3e5f474f033acba872b87638a79cae6be37ecf",
+      "resolved": true,
+      "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "url": "https://www.semanticscholar.org/paper/fd3e5f474f033acba872b87638a79cae6be37ecf",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2602.15763",
+      "citation_count": 354,
+      "external_ids": {
+        "ArXiv": "2602.15763",
+        "CorpusId": 285659808,
+        "DBLP": "journals/corr/abs-2602-15763",
+        "DOI": "10.48550/arXiv.2602.15763"
+      },
+      "paper_id": "e0db747ad65d72559e583ff92f729d68949e9daf",
+      "resolved": true,
+      "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+      "url": "https://www.semanticscholar.org/paper/e0db747ad65d72559e583ff92f729d68949e9daf",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2603.10910",
+      "citation_count": 18,
+      "external_ids": {
+        "ArXiv": "2603.10910",
+        "CorpusId": 286462326,
+        "DBLP": "journals/corr/abs-2603-10910",
+        "DOI": "10.48550/arXiv.2603.10910"
+      },
+      "paper_id": "fa09ecfe8f8616f0321a170838acbc2fbb80238b",
+      "resolved": true,
+      "title": "GLM-OCR Technical Report",
+      "url": "https://www.semanticscholar.org/paper/fa09ecfe8f8616f0321a170838acbc2fbb80238b",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2603.12201",
+      "citation_count": 20,
+      "external_ids": {
+        "ArXiv": "2603.12201",
+        "CorpusId": 286493297,
+        "DBLP": "journals/corr/abs-2603-12201",
+        "DOI": "10.48550/arXiv.2603.12201"
+      },
+      "paper_id": "a20bd9440355e845bb7200e9ca440041bf7e570d",
+      "resolved": true,
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "url": "https://www.semanticscholar.org/paper/a20bd9440355e845bb7200e9ca440041bf7e570d",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2605.27365",
+      "citation_count": 10,
+      "external_ids": {
+        "ArXiv": "2605.27365",
+        "CorpusId": 288672601,
+        "DBLP": "journals/corr/abs-2605-27365",
+        "DOI": "10.48550/arXiv.2605.27365"
+      },
+      "paper_id": "ae2fbe593787f8f3eea929d3c1a0e611c3997a07",
+      "resolved": true,
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "url": "https://www.semanticscholar.org/paper/ae2fbe593787f8f3eea929d3c1a0e611c3997a07",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2606.13392",
+      "citation_count": 12,
+      "external_ids": {
+        "ArXiv": "2606.13392",
+        "CorpusId": 289186289,
+        "DBLP": "journals/corr/abs-2606-13392",
+        "DOI": "10.48550/arXiv.2606.13392"
+      },
+      "paper_id": "f67a29537aa3f04aae5aac40f6b4e02972b4be27",
+      "resolved": true,
+      "title": "MiniMax Sparse Attention",
+      "url": "https://www.semanticscholar.org/paper/f67a29537aa3f04aae5aac40f6b4e02972b4be27",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2606.19348",
+      "citation_count": 661,
+      "external_ids": {
+        "ArXiv": "2606.19348",
+        "CorpusId": 289623513
+      },
+      "paper_id": "c055403632ddca2292e8cb62e5e60ba12e65dd25",
+      "resolved": true,
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://www.semanticscholar.org/paper/c055403632ddca2292e8cb62e5e60ba12e65dd25",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2606.23050",
+      "citation_count": 5,
+      "external_ids": {
+        "ArXiv": "2606.23050",
+        "CorpusId": 289625265,
+        "DBLP": "journals/corr/abs-2606-23050",
+        "DOI": "10.48550/arXiv.2606.23050"
+      },
+      "paper_id": "37be0477679eea7c983980346636db5a968e6969",
+      "resolved": true,
+      "title": "Unlimited OCR Works",
+      "url": "https://www.semanticscholar.org/paper/37be0477679eea7c983980346636db5a968e6969",
+      "year": 2026
+    },
+    {
+      "arxiv_id": "2607.02770",
+      "citation_count": 50,
+      "external_ids": {
+        "ArXiv": "2607.02770",
+        "CorpusId": 289923375
+      },
+      "paper_id": "bae8d2f66cd289f690db7d3f89e2951e34229d8e",
+      "resolved": true,
+      "title": "Gemma 4 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/bae8d2f66cd289f690db7d3f89e2951e34229d8e",
+      "year": 2026
+    }
+  ],
+  "provider": "semantic_scholar_academic_graph",
+  "snapshot_at": "2026-08-31T01:29:26+00:00",
+  "source_endpoint": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CcitationCount%2CexternalIds%2Curl"
+}

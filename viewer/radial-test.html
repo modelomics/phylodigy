@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>radial render harness</title>
+<link rel="stylesheet" href="style.css"></head>
+<body style="padding:20px">
+<div id="mount"></div>
+<div id="tree-scale"></div>
+<script src="layout.js"></script>
+<script src="embedded-sample.js"></script>
+<script>
+/* Minimal harness: render the radial layout of the bundled toy lineage
+ * without the app chrome, for visual verification. */
+const L = window.PhylodigyLayout;
+const lineage = JSON.parse(window.EMBEDDED_SAMPLE);
+const tree = lineage.tree;
+const labels = L.tipLabels(tree, {});
+const layout = L.layoutRadial(tree, { arcGap: 0.06 });
+const radialScale = 4.2; // compact for preview-width inspection
+const R = layout.maxX * radialScale + 60;
+const size = 2 * R + 20, cx = size / 2, cy = size / 2;
+const NS = "http://www.w3.org/2000/svg";
+const svg = document.createElementNS(NS, "svg");
+svg.setAttribute("width", size); svg.setAttribute("height", size);
+svg.setAttribute("style", "background:#fff; border:1px solid #ccc");
+const toXY = (n) => [cx + n.radius * radialScale * Math.sin(n.angle), cy - n.radius * radialScale * Math.cos(n.angle)];
+for (let r = radialScale; r <= layout.maxX * radialScale + 1; r += radialScale) {
+  const ring = document.createElementNS(NS, "circle");
+  ring.setAttribute("cx", cx); ring.setAttribute("cy", cy); ring.setAttribute("r", r);
+  ring.setAttribute("fill", "none"); ring.setAttribute("stroke", "#d8dee6");
+  ring.setAttribute("stroke-dasharray", "2 4"); ring.setAttribute("stroke-width", "0.6");
+  svg.appendChild(ring);
+}
+const children = L.buildTreeIndex(tree).children;
+for (const e of tree.edges) {
+  const p = layout.nodes.get(e.parent), c = layout.nodes.get(e.child);
+  const [x0, y0] = toXY(p), [x1, y1] = toXY(c);
+  const line = document.createElementNS(NS, "line");
+  line.setAttribute("x1", x0); line.setAttribute("y1", y0);
+  line.setAttribute("x2", x1); line.setAttribute("y2", y1);
+  line.setAttribute("stroke", "#475569"); line.setAttribute("stroke-width", "1.5");
+  svg.appendChild(line);
+}
+for (const [pid, kids] of children) {
+  if (kids.length < 2) continue;
+  const p = layout.nodes.get(pid), r = p.radius * radialScale;
+  const ang = kids.map(k => layout.nodes.get(k).angle).sort((a, b) => a - b);
+  const a0 = ang[0], a1 = ang[ang.length - 1];
+  const arc = document.createElementNS(NS, "path");
+  arc.setAttribute("d", `M ${cx + r * Math.sin(a0)} ${cy - r * Math.cos(a0)} A ${r} ${r} 0 0 1 ${cx + r * Math.sin(a1)} ${cy - r * Math.cos(a1)}`);
+  arc.setAttribute("fill", "none"); arc.setAttribute("stroke", "#475569"); arc.setAttribute("stroke-width", "1.5");
+  svg.appendChild(arc);
+}
+for (const n of layout.nodes.values()) {
+  const [x, y] = toXY(n);
+  const dot = document.createElementNS(NS, "circle");
+  dot.setAttribute("cx", x); dot.setAttribute("cy", y);
+  dot.setAttribute("r", n.internal ? 4 : 6);
+  dot.setAttribute("fill", n.internal ? "#fff" : "#2563eb"); dot.setAttribute("stroke", "#334155");
+  svg.appendChild(dot);
+  const t = document.createElementNS(NS, "text");
+  t.textContent = labels.get(n.id);
+  const off = n.internal ? -8 : 12;
+  t.setAttribute("x", x + off * Math.sin(n.angle));
+  t.setAttribute("y", y - off * Math.cos(n.angle));
+  t.setAttribute("font-size", "12px");
+  t.setAttribute("text-anchor", Math.sin(n.angle) < -0.1 ? "end" : "start");
+  svg.appendChild(t);
+}
+document.getElementById("mount").appendChild(svg);
+document.getElementById("tree-scale").textContent =
+  `radial debug: ${layout.tipCount} tips, maxX=${layout.maxX}, root=${layout.rootId}`;
+</script>
+</body></html>

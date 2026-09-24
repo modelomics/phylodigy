@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:openai/privacy-filter@7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+  "failure": {
+    "artifact_id": "hf:openai/privacy-filter@7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with GuardOnDataDependentSymNode: Could not guard on data-dependent expression Eq(u0, 0) (unhinted: Eq(u0, 0)).  (Size-like symbols: u0)\n\nconsider using data-dependent friendly APIs such as guard_or_false, guard_or_true and statically_known_true.\nCaused by: (_refs/__init__.py:4264 in unbind)\nFor more information, run with TORCH_LOGS=\"dynamic\"\nFor extended logs when we create symbols, also add TORCHDYNAMO_EXTENDED_DEBUG_CREATE_SYMBOL=\"u0\"\nIf you suspect the guard was triggered from C++, add TORCHDYNAMO_EXTENDED_DEBUG_CPP=1\nFor more debugging help, see https://docs.google.com/document/d/1HSuTTVvYH1pTew89Rtpeu84Ht3nQEFTYhAX3Ypa_xJs/edit?usp=sharing\n\nFor C++ stack trace, run with TORCHDYNAMO_EXTENDED_DEBUG_CPP=1\n\nThe following call raised this error:\n  File \"/private/tmp/phylodigy-toy-py311/lib/python3.11/site-packages/transformers/models/openai_privacy_filter/modeling_openai_privacy_filter.py\", line 291, in forward\n    for expert_idx in expert_hit:\n\nTo fix the error, insert one of the following checks before this call:\n  1. torch._check(expert_hit.shape[0] == 0)\n  2. torch._check(expert_hit.shape[0] != 0)\n\n(These suggested fixes were derived by replacing `u0` with expert_hit.shape[0] in Eq(u0, 0) and its negation.)\n\nThe error above occurred when calling torch.export.export. If you would like to view some more information about this error, and get a list of all other errors that may occur in your export call, you can replace your `export()` call with `draft_export()`.",
+    "rank": 73,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

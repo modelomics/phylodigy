@@ -1,0 +1,8 @@
+{
+  "entry_count": 3,
+  "entry_sha256": "00c8e2aaa7b1629171fad96229ac1b72c4c8396f94e278f95ecc9fc147a10a16",
+  "files": {
+    "entries.jsonl": "d2a16da5fd290bec8fa6bf0b91023189207476e389e2e5f709314ca4146e106f"
+  },
+  "format": "modelome-entry-corpus-v1"
+}

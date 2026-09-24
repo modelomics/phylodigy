@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:Chain-GPT/Solidity-LLM@06a8d62b138a88c7bdae013b57a3b1b05ceb8d63",
+  "failure": {
+    "artifact_id": "hf:Chain-GPT/Solidity-LLM@06a8d62b138a88c7bdae013b57a3b1b05ceb8d63",
+    "error": "TimeoutError: extraction exceeded 20 seconds",
+    "rank": 90,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

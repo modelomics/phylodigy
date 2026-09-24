@@ -1,0 +1,38 @@
+{
+  "artifact_type": "phylodigy.model_registry_sync_report",
+  "ingestion": {
+    "already_ingested": false,
+    "current_updates": 3593,
+    "observation_inserts": 3593,
+    "snapshot_digest": "3a8e180069f364ae247123f16360f3c71110ff3680e3e7a9ab8176ea87b22576"
+  },
+  "provider": "epoch",
+  "query": {
+    "date_window": null,
+    "importance": null,
+    "library": null,
+    "page_size": 500,
+    "provider": "epoch",
+    "search": null
+  },
+  "scan": {
+    "complete": true,
+    "coverage_complete": true,
+    "duplicate_version_conflicts": 0,
+    "eligible_entry_count": 3593,
+    "missing_importance_metric": [],
+    "next_cursor": null,
+    "pages_fetched": 8,
+    "population_exhausted": true,
+    "provider_reported_total": 3593,
+    "query_complete": true,
+    "ranking_population_count": null,
+    "records_seen": 3593,
+    "selection_applied": false,
+    "source_exhausted": true,
+    "started_at": "2026-09-01T05:43:29Z",
+    "stopped_reason": "provider_exhausted",
+    "updated_at": "2026-09-01T05:43:29Z"
+  },
+  "snapshot_digest": "3a8e180069f364ae247123f16360f3c71110ff3680e3e7a9ab8176ea87b22576"
+}

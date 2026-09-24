@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:deepseek-ai/DeepSeek-R1-Distill-Qwen-32B@711ad2ea6aa40cfca18895e8aca02ab92df1a746",
+  "failure": {
+    "artifact_id": "hf:deepseek-ai/DeepSeek-R1-Distill-Qwen-32B@711ad2ea6aa40cfca18895e8aca02ab92df1a746",
+    "error": "PopularityCorpusError: declared layer count 64 exceeds limit 36",
+    "rank": 85,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

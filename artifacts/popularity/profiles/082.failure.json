@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:docling-project/SmolDocling-256M-preview@ce51f56c4ebe36e0b1c3a55f67b261ba22a50bf8",
+  "failure": {
+    "artifact_id": "hf:docling-project/SmolDocling-256M-preview@ce51f56c4ebe36e0b1c3a55f67b261ba22a50bf8",
+    "error": "TimeoutError: extraction exceeded 20 seconds",
+    "rank": 82,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

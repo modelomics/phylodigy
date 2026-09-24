@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a35458c702b33eeacc393d103063234e8bc28",
+  "failure": {
+    "artifact_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a35458c702b33eeacc393d103063234e8bc28",
+    "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with AttributeError: 'tuple' object has no attribute 'last_hidden_state'",
+    "rank": 93,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

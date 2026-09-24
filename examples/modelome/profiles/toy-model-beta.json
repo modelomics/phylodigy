@@ -1,0 +1,326 @@
+{
+  "artifact": {
+    "id": "toy:model:beta",
+    "kind": "model",
+    "metadata": {
+      "note": "Toy data for CLI examples; not a real model.",
+      "synthetic": true
+    },
+    "name": "Toy Beta"
+  },
+  "artifact_type": "phylodigy.architectural_genome",
+  "digest": "6ee1fa53c3269f32bd8711c30d86b957f82bea73d3c7711e5fe8089b0d40d40c",
+  "extractor": {
+    "name": "synthetic-fixture",
+    "version": "1"
+  },
+  "graph_profile": {
+    "artifact_type": "phylodigy.computation_graph_profile",
+    "characters": [
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "1297f80bb87453c4b85d96445d2335f18dfe5c3294ffe48557fe19deda031e6d",
+        "occurrences": [
+          {
+            "character_id": "1297f80bb87453c4b85d96445d2335f18dfe5c3294ffe48557fe19deda031e6d",
+            "edge_ids": [],
+            "id": "542044ce4d4718816899f126883843b87bc66d5a178e8eabd951977804214363",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "2f3a20fefa82446983c27d53410ee61dafd8dc2f3e9e5f6f9ff43e687fda41e7"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "170b9a5fc2fab6d935c1bb8c84bfd2cb5001cb0d2918760d125623458e4f3075",
+        "occurrences": [
+          {
+            "character_id": "170b9a5fc2fab6d935c1bb8c84bfd2cb5001cb0d2918760d125623458e4f3075",
+            "edge_ids": [],
+            "id": "e565aae89f51d7fbf3c8ecf3c5bfee5841183db35f8c4736bd8d2ed92ce583d3",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "c0b57e7072ee4506e8233c89bb6c4fc2872c2d6e3e48879d221de0f6e7727ca6"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "18e5d9bef732a26f3fa99dcc773a405bc57eab16e7a0b39169699f4c6001a960",
+        "occurrences": [
+          {
+            "character_id": "18e5d9bef732a26f3fa99dcc773a405bc57eab16e7a0b39169699f4c6001a960",
+            "edge_ids": [],
+            "id": "0383c2777d870128e539ac225d3666e2d215825538eeaed4ff7ba6bcb8b8413d",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "23053be6b9949285eb523af410758fa8e30084009ddcfee214c3f870d6d3f3e3"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "211463feaf09b1c903f40b1cf4aa12a9a6954fdf3c3b84681b362d04e34f2a18",
+        "occurrences": [
+          {
+            "character_id": "211463feaf09b1c903f40b1cf4aa12a9a6954fdf3c3b84681b362d04e34f2a18",
+            "edge_ids": [],
+            "id": "44b08bdec27d7af428629706e4fecca4b39c7473027ff995cb5d7a66dae3147f",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "6ada4bbbd1610f4441c5e0f8366d32695909a152f17e1339d62c3d0e52fcab2d"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "59c0ef562407d8da30d1b2177ea5639e5264938f41cadbdfeec2af6703c7e199",
+        "occurrences": [
+          {
+            "character_id": "59c0ef562407d8da30d1b2177ea5639e5264938f41cadbdfeec2af6703c7e199",
+            "edge_ids": [],
+            "id": "0e641b7f35de2b4f9838dc4567cbf744141e736ddde1db6bde351cde21a0d06b",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 2
+        },
+        "structural_signature": "f0e1e485e27d6ef6e7973bec8d468359f924292afbcd24ec988eb825e176afb1"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "68415329711a1b3171399616c242e5f54e95f90c2fa560c314eeb64b4a27af16",
+        "occurrences": [
+          {
+            "character_id": "68415329711a1b3171399616c242e5f54e95f90c2fa560c314eeb64b4a27af16",
+            "edge_ids": [],
+            "id": "4a0959c7cf8512722fa7f4c4aa869fcf5b17b28a5b55ff91b28f4bd6be91afc8",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "43ac7f2b08174ce01fea577f9a91e96e87a2ab527308d659a6e4b1bca70b02a7"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "7e81fc32ae47cdad4f1b5c87620afe9279c4e5616dc586c8ca3bb98f893a5b1f",
+        "occurrences": [
+          {
+            "character_id": "7e81fc32ae47cdad4f1b5c87620afe9279c4e5616dc586c8ca3bb98f893a5b1f",
+            "edge_ids": [],
+            "id": "ca3c7d3936532976bdf601d84a163a57fd4ee7f4915f360e0fac70144824a450",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "5c1d6831e73f97f8c559905502b74a3ae55a852c8b94567a23e42ec0f525742e"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "81dae8330c52349055f8df852541227938b630531fe1c4f056f9a19f6f33e1ec",
+        "occurrences": [
+          {
+            "character_id": "81dae8330c52349055f8df852541227938b630531fe1c4f056f9a19f6f33e1ec",
+            "edge_ids": [],
+            "id": "ab865fa584844b8e17bde6fefb773ecf2630e8101fc1540a325ecf8e0b7fa53b",
+            "node_ids": [
+              "n000001"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "2f4844f908c6df8aa33d41dbf9bc02b9ac93af462f75dde4da2f810a7d63c939"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "9221ba2591ed0a96a8f00460dae7c8443ff5726757312a33cd7b7c4b7e6519e0",
+        "occurrences": [
+          {
+            "character_id": "9221ba2591ed0a96a8f00460dae7c8443ff5726757312a33cd7b7c4b7e6519e0",
+            "edge_ids": [],
+            "id": "20855f83b1d2edf86e4b52473bc3bbdad7b8a7234fbf4387b26655bbe837aeb2",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "1afeedf643efea8b2fe14370d7d9a1aca26a51195407b550d4d0fa479261e86d"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "9edbe5e1d4c5b9e986d881cd3fdce554b47067ccacea70a14f2b1566633b0b7e",
+        "occurrences": [
+          {
+            "character_id": "9edbe5e1d4c5b9e986d881cd3fdce554b47067ccacea70a14f2b1566633b0b7e",
+            "edge_ids": [],
+            "id": "b4b295494c8906bab73a08d5d77fdc70c6295185c9897696ccb3ddc7ccb05fb5",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 0
+        },
+        "structural_signature": "a3e571aeb6675d44d7e4328c7df87bedba4b6d681e0c3a96307835d11f415d81"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "b24198b0ba7300c766a08684927d5fea80304d08505f2adcb6fdc1e2a96fcaa9",
+        "occurrences": [
+          {
+            "character_id": "b24198b0ba7300c766a08684927d5fea80304d08505f2adcb6fdc1e2a96fcaa9",
+            "edge_ids": [],
+            "id": "1c132c8d2dee7c92db8d2026929a2e05bc79bd94e06d09bd6c1a128cbfd1f25b",
+            "node_ids": [
+              "n000000"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 3
+        },
+        "structural_signature": "d099fae67964a0138e279fde418e08192a36226bb869ba7e9736690ced78b380"
+      },
+      {
+        "count": 1,
+        "generator": "directed_wl_neighborhood.v1",
+        "id": "c6d17864ae4fee8b9d3b7547555afadc8eb9dd6a0c0763a0f7539964e79204d4",
+        "occurrences": [
+          {
+            "character_id": "c6d17864ae4fee8b9d3b7547555afadc8eb9dd6a0c0763a0f7539964e79204d4",
+            "edge_ids": [],
+            "id": "eb97944465bad1c30e20d4100a9aa1a147ff4c09dccdbb35670a6a810994c5ae",
+            "node_ids": [
+              "n000002"
+            ]
+          }
+        ],
+        "parameters": {
+          "radius": 1
+        },
+        "structural_signature": "16d544e812641229236fd6771cab1bd0f970e05c23aeb7260dbc6c2c46dc2ede"
+      }
+    ],
+    "digest": "773c086dfbf92f961a15e30afc69d8d81ad913a46b9a0e16843fceba5f6d49b4",
+    "fingerprint": {
+      "scales": [
+        {
+          "features": {
+            "23053be6b9949285eb523af410758fa8e30084009ddcfee214c3f870d6d3f3e3": 1,
+            "5c1d6831e73f97f8c559905502b74a3ae55a852c8b94567a23e42ec0f525742e": 1,
+            "a3e571aeb6675d44d7e4328c7df87bedba4b6d681e0c3a96307835d11f415d81": 1
+          },
+          "radius": 0
+        },
+        {
+          "features": {
+            "16d544e812641229236fd6771cab1bd0f970e05c23aeb7260dbc6c2c46dc2ede": 1,
+            "2f3a20fefa82446983c27d53410ee61dafd8dc2f3e9e5f6f9ff43e687fda41e7": 1,
+            "43ac7f2b08174ce01fea577f9a91e96e87a2ab527308d659a6e4b1bca70b02a7": 1
+          },
+          "radius": 1
+        },
+        {
+          "features": {
+            "6ada4bbbd1610f4441c5e0f8366d32695909a152f17e1339d62c3d0e52fcab2d": 1,
+            "c0b57e7072ee4506e8233c89bb6c4fc2872c2d6e3e48879d221de0f6e7727ca6": 1,
+            "f0e1e485e27d6ef6e7973bec8d468359f924292afbcd24ec988eb825e176afb1": 1
+          },
+          "radius": 2
+        },
+        {
+          "features": {
+            "1afeedf643efea8b2fe14370d7d9a1aca26a51195407b550d4d0fa479261e86d": 1,
+            "2f4844f908c6df8aa33d41dbf9bc02b9ac93af462f75dde4da2f810a7d63c939": 1,
+            "d099fae67964a0138e279fde418e08192a36226bb869ba7e9736690ced78b380": 1
+          },
+          "radius": 3
+        }
+      ],
+      "scheme": "directed-wl-counts.v1"
+    },
+    "frontend": "synthetic-records",
+    "graph": {
+      "edges": [
+        {
+          "position": "arg:000000",
+          "source": "n000000",
+          "target": "n000001"
+        },
+        {
+          "position": "arg:000001",
+          "source": "n000000",
+          "target": "n000001"
+        },
+        {
+          "position": "arg:000000",
+          "source": "n000001",
+          "target": "n000002"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "n000000",
+          "operation": "graph.input"
+        },
+        {
+          "id": "n000001",
+          "operation": "function.toy.add"
+        },
+        {
+          "id": "n000002",
+          "operation": "graph.output"
+        }
+      ],
+      "schema_version": "2.0.0"
+    },
+    "profile_version": "2",
+    "regions": []
+  },
+  "schema_version": "3.0.0"
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phylodigital Tree Viewer</title>
+  <meta name="description" content="Interactive viewer for phylodigy.architecture_lineage artifacts — graph-character neighbor-joining phylogenies of executable digital artifacts.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-title">
+      <h1>Phylodigital Tree Viewer</h1>
+      <span class="artifact-badge" id="artifact-badge" hidden>phylodigy.architecture_lineage</span>
+    </div>
+    <div class="topbar-actions">
+      <label class="file-open">
+        Open lineage JSON&hellip;
+        <input type="file" id="file-input" accept=".json,application/json">
+      </label>
+      <button id="sample-button" type="button">Load toy tree</button>
+    </div>
+  </header>
+
+  <section id="drop-zone" class="drop-zone">
+    <div class="drop-inner">
+      <p class="drop-headline">Drop a lineage artifact here</p>
+      <p class="drop-sub">
+        A <code>phylodigy.architecture_lineage</code> JSON record produced by
+        <code>phylodigy infer-lineage</code> or <code>phylodigy toy-tree -o</code>.
+      </p>
+      <p class="drop-sub">The bundled toy tree loads automatically, or use the buttons above.</p>
+    </div>
+  </section>
+
+  <main id="app" hidden>
+    <nav class="tabs" aria-label="Views">
+      <button class="tab is-active" data-tab="tree" type="button">Tree</button>
+      <button class="tab" data-tab="distances" type="button">Distances</button>
+      <button class="tab" data-tab="genomes" type="button">Genomes</button>
+      <button class="tab" data-tab="evidence" type="button">Evidence</button>
+      <button class="tab" data-tab="raw" type="button">Raw JSON</button>
+    </nav>
+
+    <section id="panel-tree" class="panel is-active" aria-label="Tree">
+      <aside class="sidebar">
+        <h2>Tree-likeness diagnostics</h2>
+        <dl id="diagnostics-list" class="diagnostics"></dl>
+        <div id="violation-panel" class="violations" hidden>
+          <h3>Signals to investigate</h3>
+          <p class="violations-note">
+            Systematic distance violations stay visible as possible convergence,
+            component reuse, or contact. They are not forced into a bifurcating tree.
+          </p>
+          <ul id="violation-list"></ul>
+        </div>
+      </aside>
+      <div class="tree-canvas" id="tree-canvas">
+        <div class="tree-toolbar" role="group" aria-label="Tree layout">
+          <button type="button" class="layout-toggle is-active" data-layout="rect" aria-pressed="true">Rectangular</button>
+          <button type="button" class="layout-toggle" data-layout="circle" aria-pressed="false">Circular</button>
+          <span class="trait-hint" title="Traits are anonymous graph-derived characters (content digests) reconstructed onto branches by parsimony intersection. They are structural signals, not named techniques.">traits = graph-character changes</span>
+        </div>
+        <svg id="tree-svg" role="img" aria-label="Neighbor-joining phylogram"></svg>
+        <div class="tree-scale" id="tree-scale"></div>
+      </div>
+      <div id="side-detail" class="side-detail" hidden></div>
+    </section>
+
+    <section id="panel-distances" class="panel" aria-label="Distances">
+      <p class="panel-note">
+        Weighted L<sub>1</sub> pseudometric over dynamic graph characters
+        (radii per analysis config). Finite-radius fingerprints can collide.
+      </p>
+      <div class="matrix-wrap">
+        <table id="distance-matrix" class="matrix"></table>
+      </div>
+    </section>
+
+    <section id="panel-genomes" class="panel" aria-label="Genomes">
+      <table id="genome-table" class="data-table"></table>
+    </section>
+
+    <section id="panel-evidence" class="panel" aria-label="Evidence">
+      <div class="evidence-boundary" id="evidence-boundary"></div>
+      <div id="evidence-empty" class="empty-note" hidden>
+        No external evidence records. Chronology, citation, or provenance records passed to
+        <code>infer-lineage --evidence</code> appear here, retained beside the tree and never
+        folded into graph distance.
+      </div>
+      <table id="evidence-table" class="data-table" hidden></table>
+    </section>
+
+    <section id="panel-raw" class="panel" aria-label="Raw JSON">
+      <pre id="raw-json" class="raw-json"></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="digest-line"></span>
+  </footer>
+
+  <script src="layout.js"></script>
+  <script src="embedded-sample.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

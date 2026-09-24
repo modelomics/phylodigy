@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:google/gemma-4-31B-it@842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "failure": {
+    "artifact_id": "hf:google/gemma-4-31B-it@842da3794eaa0b77d5f08bae87a17459d91ff475",
+    "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with RuntimeError: Found <class 'transformers.cache_utils.DynamicCache'> in output, which is not a known type. If this type holds tensors, you need to register a pytree for it. See https://github.com/pytorch/functorch/issues/475 for a brief explanation why. If you don't need to register a pytree, please leave a comment explaining your use case and we'll make this more ergonomic to deal with",
+    "rank": 20,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}

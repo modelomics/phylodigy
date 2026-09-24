@@ -1,0 +1,67 @@
+{
+  "access": [
+    {
+      "access_kind": "api_access",
+      "record_count": 423
+    },
+    {
+      "access_kind": "hosted_access",
+      "record_count": 125
+    },
+    {
+      "access_kind": "metadata_only",
+      "record_count": 844
+    },
+    {
+      "access_kind": "open_weights_noncommercial",
+      "record_count": 229
+    },
+    {
+      "access_kind": "open_weights_restricted",
+      "record_count": 301
+    },
+    {
+      "access_kind": "open_weights_unrestricted",
+      "record_count": 842
+    },
+    {
+      "access_kind": "unreleased",
+      "record_count": 829
+    }
+  ],
+  "artifact_type": "phylodigy.model_registry_status",
+  "coverage": [
+    {
+      "coverage_complete": true,
+      "next_cursor": null,
+      "provider": "epoch",
+      "query": {
+        "date_window": null,
+        "importance": null,
+        "library": null,
+        "page_size": 500,
+        "provider": "epoch",
+        "search": null
+      },
+      "query_complete": true,
+      "query_digest": "9c23d4e6cf4bdec0348cf8e2a4a778ca846cb23bf07009d3f4bcf96ecce1b899",
+      "snapshot_digest": "3a8e180069f364ae247123f16360f3c71110ff3680e3e7a9ab8176ea87b22576",
+      "source_exhausted": true,
+      "stopped_reason": "provider_exhausted",
+      "updated_at": "2026-09-01T05:43:29Z"
+    }
+  ],
+  "providers": [
+    {
+      "provider": "epoch",
+      "record_count": 3593
+    }
+  ],
+  "registry_schema_version": "1",
+  "totals": {
+    "checkpoints": 1,
+    "current_records": 3593,
+    "observations": 3593,
+    "snapshots": 1
+  }
+}

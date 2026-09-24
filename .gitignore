@@ -1,0 +1,21 @@
+# Python environments and bytecode
+.venv/
+.claude/settings.local.json
+docs/.obsidian/workspace.json
+__pycache__/
+*.py[cod]
+
+# Test and build output
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local generated tree output
+/modelome-tree.json
+/modelome-tree.nwk
+/artifacts/registry/*.sqlite
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,75 @@
+{
+  "artifact_type": "phylodigy.popularity_tree_run",
+  "digest": "b2e3ecaab101a05c999d558dfd8d7c40d2fecfccc6f11da12879da82ed1ad585",
+  "extraction": {
+    "attempted": 10,
+    "failed": [
+      {
+        "artifact_id": "hf:deepseek-ai/DeepSeek-R1@56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+        "error": "PopularityCorpusError: artifact requires untrusted custom code",
+        "rank": 1
+      },
+      {
+        "artifact_id": "hf:Qwen/Qwen3.8-27B@1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+        "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with AttributeError: 'tuple' object has no attribute 'past_key_values'",
+        "rank": 2
+      },
+      {
+        "artifact_id": "hf:moonshotai/Kimi-K3@a590ce090cb049c93a33dfe8c208ec652aa20503",
+        "error": "PopularityCorpusError: artifact requires untrusted custom code",
+        "rank": 3
+      },
+      {
+        "artifact_id": "hf:meta-llama/Llama-3.1-8B-Instruct@0e9e39f249a16976918f6564b8830bc894c89659",
+        "error": "PopularityCorpusError: artifact is gated and no authorization was supplied",
+        "rank": 4
+      },
+      {
+        "artifact_id": "hf:meta-llama/Meta-Llama-3-8B@8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+        "error": "PopularityCorpusError: artifact is gated and no authorization was supplied",
+        "rank": 5
+      },
+      {
+        "artifact_id": "hf:openai/whisper-large-v3@06f233fe06e710322aca913c1bc4249a0d71fce1",
+        "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with AttributeError: 'NoneType' object has no attribute 'shape'",
+        "rank": 6
+      },
+      {
+        "artifact_id": "hf:deepseek-ai/DeepSeek-V4-Pro@b5968e9190ef611bbf34a7229255be88a0e937c1",
+        "error": "PopularityCorpusError: declared layer count 61 exceeds limit 36",
+        "rank": 7
+      },
+      {
+        "artifact_id": "hf:openai/gpt-oss-120b@b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+        "error": "GraphExtractionError: neither torch.fx nor torch.export could produce an executable graph; torch.fx failed with ValueError: code: co_varnames is too small; torch.export failed with AttributeError: 'tuple' object has no attribute 'last_hidden_state'",
+        "rank": 9
+      },
+      {
+        "artifact_id": "hf:zai-org/GLM-5.2@b4734de4facf877f85769a911abafc5283eab3d9",
+        "error": "PopularityCorpusError: declared layer count 78 exceeds limit 36",
+        "rank": 10
+      }
+    ],
+    "failure_count": 9,
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "succeeded": [
+      {
+        "architecture": "BertModel",
+        "artifact_id": "hf:sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "graph_digest": "0c266f3ea1740a8c5fa5e3484ef847aa1611c8456feb5c088a59ecc5e5234e8d",
+        "node_count": 386,
+        "profile_digest": "0689813f69669eb082252596b698b197b96ca36e5d66c345c27ec4b1305927f4",
+        "profile_path": "artifacts/popularity/profiles/008.genome.json",
+        "rank": 8
+      }
+    ],
+    "success_count": 1
+  },
+  "lineage": null,
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "radii": [
+    0
+  ],
+  "status": "insufficient_executable_graphs"
+}

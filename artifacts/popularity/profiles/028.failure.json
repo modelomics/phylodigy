@@ -1,0 +1,18 @@
+{
+  "artifact_id": "hf:deepseek-ai/DeepSeek-V3-0324@e9b33add76883f293d6bf61f6bd89b497e80e335",
+  "failure": {
+    "artifact_id": "hf:deepseek-ai/DeepSeek-V3-0324@e9b33add76883f293d6bf61f6bd89b497e80e335",
+    "error": "PopularityCorpusError: artifact requires untrusted custom code",
+    "rank": 28,
+    "resumed": false
+  },
+  "manifest_digest": "689888c6934b4edc246386c174093061dc35919d95cc651aa10b727f57595814",
+  "policy": {
+    "max_graph_nodes": 12000,
+    "max_hidden_layers": 36,
+    "per_model_timeout": 20.0,
+    "radii": [
+      0
+    ]
+  }
+}
