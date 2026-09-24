@@ -97,6 +97,12 @@ entries; they are not graph evidence. Exact inference is limited to 100
 profiles by default; set `--max-taxa` explicitly to change that limit. The
 input bundle verifies its recorded hashes before use.
 
+For optional public-model graph extraction, install `.[corpus]`, inspect
+revision readiness with `phylodigy modelome-extract-plan`, then run bounded
+batches with `phylodigy modelome-extract`. Use the run report's `profiles_dir`
+for tree construction. See the [Modelome tree workflow](docs/Workflows/Build%20a%20Modelome%20Tree.md)
+for exact pins, resumable extraction, and coverage limits.
+
 The Python API exposes the same tree builder:
 
 ```python

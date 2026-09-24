@@ -383,6 +383,7 @@ def _model_from_entry(
     config = transformers.AutoConfig.from_pretrained(
         entry["hub_id"],
         revision=entry["hub_revision"],
+        token=False,
         trust_remote_code=False,
     )
     _configure_for_export(config)

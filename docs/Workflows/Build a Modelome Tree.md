@@ -32,6 +32,78 @@ The artifact ID identifies the observed profile. If it differs from the
 Modelome entry ID, provide an explicit binding. Do not infer identity from a
 name, paper title, URL, or other descriptive field.
 
+## Plan and extract public profiles
+
+Phylodigy can plan and run bounded extraction from public Hugging Face
+Transformers repositories. Install the optional `corpus` extra first. Planning
+is offline and checks the exact repository and revision evidence already
+recorded in each entry:
+
+```console
+python -m pip install -e '.[corpus]'
+phylodigy modelome-extract-plan entries.jsonl -o extraction-plan.json
+```
+
+The resolver accepts only exact `repo_id` plus 40-character commit revision
+identifiers. If an entry has multiple evidenced candidates, select one with a
+JSON `--pins` mapping. A pin can select only a candidate already present in
+that entry's evidence:
+
+```json
+{
+  "modelome-entry:42": {
+    "repo_id": "org/model",
+    "revision": "0123456789abcdef0123456789abcdef01234567"
+  }
+}
+```
+
+The plan accepts the same optional `--pins JSON_FILE` mapping used by
+extraction. It records entries without an exact target as missing, unsupported,
+or ambiguous instead of guessing from names or URLs.
+
+Run a bounded batch with explicit network access:
+
+```console
+phylodigy modelome-extract entries.jsonl \
+  --output-dir traces --max-models 10 \
+  -o extraction-run.json
+```
+
+Pass `--pins pins.json` when extraction needs those selections. Add
+`--retry-failures` to retry prior failures, or
+`--per-model-timeout SECONDS` to change the timeout. Repeating the same command
+uses the same entry snapshot, pins, extraction policy, and runtime-specific run
+directory. It reuses validated cached results and tries the next ten uncached
+ready jobs. The JSON report's `profiles_dir` points to the profile directory
+for that snapshot, policy, and runtime. Pass that reported path to
+`modelome-tree`; do not substitute the general `traces` parent directory.
+
+Extraction constructs supported models on the meta device. It does not
+download weights or run repository supplied custom code. It refuses gated or
+private repositories and applies a 45-second per-model timeout by default.
+Change it with `--per-model-timeout`. Missing or unsupported references,
+ambiguous candidates, extraction failures, and unattempted entries remain in
+the report. A `finished` run means there are no pending ready jobs; it does not
+mean every Modelome entry has graph coverage.
+
+The Python API composes extraction with tree construction using the returned
+profile directory. Run this code from a Python script with the main guard
+because extraction starts worker processes with the `spawn` method. Do not run
+the extraction call directly in a REPL.
+
+```python
+from phylodigy import build_modelome_tree, extract_modelome_profiles
+
+if __name__ == "__main__":
+    run = extract_modelome_profiles(
+        "entries.jsonl", "traces", max_models=10
+    )
+    tree = build_modelome_tree(
+        "entries.jsonl", profiles_dir=run["profiles_dir"]
+    )
+```
+
 ## Review coverage
 
 Plan the operation before building the tree:

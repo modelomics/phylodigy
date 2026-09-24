@@ -178,5 +178,8 @@ from .modelome_profiles import load_modelome_profiles
 from .modelome_binding import bind_modelome_profiles
 from .modelome_relations import build_modelome_relations
 from .newick import lineage_to_newick
+from .huggingface_profile import HuggingFaceProfileError, extract_huggingface_genome
+from .modelome_extraction import extract_modelome_profiles, plan_modelome_extraction
+from .modelome_targets import resolve_modelome_targets
 
 __all__ = [name for name in globals() if not name.startswith("_")]

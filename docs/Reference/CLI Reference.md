@@ -46,6 +46,8 @@ primary and auxiliary inputs.
 | `enrich-model-citations` | Batched arXiv citation snapshot for a manifest |
 | `modelome-plan` | Entry and resource inventory for a Modelome corpus |
 | `modelome-tree` | Graph-derived tree with complete Modelome entry coverage |
+| `modelome-extract-plan` | Offline plan for pinned Modelome graph extraction |
+| `modelome-extract` | Bounded extraction run over ready Modelome entries |
 | `discover-models` | Provider-scoped catalog snapshot |
 | `select-models` | Importance-ranked catalog selection |
 | `bind-model-papers` | Paper-grounded catalog |
@@ -294,6 +296,31 @@ mapping. Unprofiled entries remain in coverage without inferred tree tips.
 Exact diagnostics are limited to 100 bound profiles by default. `--newick`
 writes the inferred tree in Newick format and requires at least two bound
 profiles.
+
+### `modelome-extract-plan`
+
+```console
+phylodigy modelome-extract-plan ENTRIES [--pins JSON_FILE] [-o PATH]
+```
+
+This offline command resolves only exact repository and 40-character commit
+revision evidence in the entries. `--pins` selects among candidates already
+declared by an entry. It does not contact Hugging Face or extract graphs.
+
+### `modelome-extract`
+
+```console
+phylodigy modelome-extract ENTRIES --output-dir PATH \
+  [--pins JSON_FILE] [--max-models N] [--retry-failures] \
+  [--per-model-timeout SECONDS] [-o PATH]
+```
+
+This command requires the optional `corpus` extra and network access. It
+processes at most ten uncached ready entries per run by default and reuses
+validated results on reruns with the same snapshot, pins, policy, and runtime.
+The report's `profiles_dir` names the profile directory for that exact run.
+Gated or private repositories are refused. The command does not download model
+weights or run repository supplied custom code.
 
 ## Catalog commands
 
